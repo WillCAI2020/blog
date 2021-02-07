@@ -1,7 +1,7 @@
 FROM archlinux
 
 RUN pacman -Syu --noconfirm git openssh
-RUN curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
 
 COPY entrypoint.sh /entrypoint.sh
 
