@@ -1,1 +1,15 @@
+{# 动态背景canvas_nest #}
 <script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
+
+{# 每日诗词 #}
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+<text class="poem_sentence"></text>
+<text class="poem_info"></text>
+<script type="text/javascript">
+  jinrishici.load(function(result) {
+    var sentence = document.querySelector(".poem_sentence")
+    var info = document.querySelector(".poem_info")
+    sentence.innerHTML = result.data.content
+    info.innerHTML = '——' + result.data.origin.author
+  });
+</script> 
