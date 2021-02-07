@@ -1,6 +1,6 @@
 name: 'hexo-deploy'
 author: 'according-reuixiy'
-description: 'Deploy your Hexo site to GitHub Pages, via GitHub Actions, with Arch Linux.'
+description: 'Deploy your Hexo site to GitHub Pages, via GitHub Actions'
 runs:
   using: 'docker'
   image: 'Dockerfile'

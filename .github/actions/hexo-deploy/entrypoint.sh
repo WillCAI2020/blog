@@ -33,11 +33,6 @@ chmod 400 /root/.ssh/id_rsa
 git clone --recurse-submodules "git@github.com:${GITHUB_REPOSITORY}.git" site && \
 cd site
 
-nvm install 12.20.1 64-bit
-nvm use 12.20.1
-node -v
-npm i -g hexo-cli
-npm i
 hexo clean
 hexo g
 
