@@ -1,3 +1,6 @@
 [submodule "themes/next"]
 	path = themes/next
 	url = https://github.com/next-theme/hexo-theme-next.git
+[submodule "source/lib/canvas_ribbon"]
+	path = source/lib/canvas_ribbon
+	url = https://github.com/theme-next/theme-next-canvas-ribbon

@@ -37,9 +37,3 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
-
-<span id="inline-red"> 这里输入文字 </span>
-<span id="inline-blue"> 这里输入文字 </span>
-<span id="inline-purple"> 这里输入文字 </span>
-<span id="inline-yellow"> 这里输入文字 </span>
-<span id="inline-green"> 这里输入文字 </span>
