@@ -33,6 +33,9 @@ chmod 400 /root/.ssh/id_rsa
 git clone --recurse-submodules "git@github.com:${GITHUB_REPOSITORY}.git" site && \
 cd site
 
+node -v
+npm i -g hexo-cli
+npm i
 hexo clean
 hexo g
 
