@@ -4,3 +4,6 @@
 [submodule "source/lib/canvas_ribbon"]
 	path = source/lib/canvas_ribbon
 	url = https://github.com/theme-next/theme-next-canvas-ribbon
+[submodule "source/lib/canvas-nest"]
+	path = source/lib/canvas-nest
+	url = https://github.com/theme-next/theme-next-canvas-nest
