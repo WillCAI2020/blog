@@ -1,6 +1,6 @@
 FROM archlinux
 
-RUN pacman -Syu --noconfirm nodejs git openssh
+RUN pacman -Syu --noconfirm nvm npm git openssh
 
 COPY entrypoint.sh /entrypoint.sh
 
