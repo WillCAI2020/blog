@@ -1,0 +1,32 @@
+# .github/workflows/build.yml
+
+name: build
+
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 'Checkout codes'
+      uses: actions/checkout@v2
+      with:
+        submodules: true
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+      
+    - name: 'Building...'
+      uses: ./.github/actions/hexo-deploy
+      env:
+        DEPLOY_REPO: WillCAI2020/WillCAI2020.github.io
+        DEPLOY_BRANCH: main
+        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+        # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+        TZ: Asia/Shanghai
