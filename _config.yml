@@ -378,7 +378,7 @@ theme_config:
       wpm: 275              # 一分钟阅读的字数
 
     # Use icon instead of the symbol # to indicate the tag at the bottom of the post
-    tag_icon: false
+    tag_icon: true
 
     # Donate (Sponsor) settings
     # Front-matter variable (unsupport animation).
