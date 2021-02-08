@@ -24,9 +24,9 @@ pretty_urls:
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
+tag_dir: overview/tags
+archive_dir: overview/timeline
+category_dir: overview
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -67,8 +67,11 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category: life
 category_map:
+  博客: blog
+  编程: code
+  专业: professional
 tag_map:
 
 # Metadata elements
@@ -204,10 +207,10 @@ theme_config:
     # External url should start with http:// or https://
     menu:
       home: / || fa fa-map
-      all: 
-        default: /all/ || fa fa-book
-        tags: tags/ || fa fa-tags
-        timeline: timeline/ || fa fa-hourglass
+      overview:
+        default: /overview/ || fa fa-book
+        tags: /tags/ || fa fa-tags
+        timeline: /timeline/ || fa fa-hourglass
       #about: /about/ || fa fa-user
       #categories: /categories/ || fa fa-th
       #archives: /archives/ || fa fa-archive
