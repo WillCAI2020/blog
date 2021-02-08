@@ -113,6 +113,12 @@ symbols_count_time:
  # 网页底部是否显示
   total_symbols: false
   total_time: false
+  
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 100
 
 theme_config:
     # ===============================================================
@@ -211,8 +217,8 @@ theme_config:
 
     # Enable / Disable menu icons / item badges.
     menu_settings:
-      icons: true
-      badges: false
+      icons: true   # 显示图标
+      badges: false  # 显示统计信息
 
 
     # ---------------------------------------------------------------
@@ -849,7 +855,7 @@ theme_config:
     # Local Search
     # Dependencies: https://github.com/next-theme/hexo-generator-searchdb
     local_search:
-      enable: false
+      enable: true
       # If auto, trigger search by changing input.
       # If manual, trigger search by pressing enter key or search button.
       trigger: auto
