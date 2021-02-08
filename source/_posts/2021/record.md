@@ -5,7 +5,9 @@ rc: blog-record
 tags: [record,hexo]
 categories: [博客]
 ---
+记录。
 
+<!--more-->
 ```
 hexo init
 git init
