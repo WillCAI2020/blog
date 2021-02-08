@@ -488,10 +488,10 @@ theme_config:
       # Code Highlight theme
       # All available themes: https://theme-next.js.org/highlight/
       theme:
-        light: default
-        dark: tomorrow-night
+        light: monokai
+        dark: monokai
       prism:
-        light: prism
+        light: prism-solarizedlight
         dark: prism-dark
       # Add copy button on codeblock
       copy_button:

@@ -14,7 +14,7 @@ git init
 由于想在blog仓库放源码（要部署的文件一定得放在username.github.io仓库中），故而新生成一个SSH密钥，公钥作为username.github.io的Deploy KEY，私钥作为blog的变量
 ```
 
-```
+```css
 html,body {
 	margin: 0;
 	padding:0;
@@ -61,3 +61,12 @@ git submodule add --depth 1 https://github.com/theme-next/theme-next-canvas-nest
 ```
 git rm -r --cached source/lib/canvas-nest
 ```
+
+```
+git rm -r --cached _config.landscape.yml
+```
+
+```
+npm install hexo-generator-searchdb --save
+```
+
