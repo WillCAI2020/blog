@@ -151,7 +151,7 @@ theme_config:
       #postMeta: source/_data/post-meta.njk
       #postBodyEnd: source/_data/post-body-end.njk
       footer: source/_data/footer.njk
-      #bodyEnd: source/_data/body-end.njk
+      bodyEnd: source/_data/body-end.njk
       variable: source/_data/variables.styl
       #mixin: source/_data/mixins.styl
       style: source/_data/styles.styl
@@ -1065,3 +1065,13 @@ theme_config:
     css: css
     js: js
     images: images
+    
+    # 鼠标点击特效
+    # mouse click effect: fireworks | explosion | love
+    cursor_effect: fireworks
+
+    # 打字特效
+    # typing effect
+    typing_effect:
+      colorful: true  # 礼花特效
+      shake: false    # 震动特效
