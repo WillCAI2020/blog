@@ -100,3 +100,9 @@ html是由很多元素组成的，而每个元素的样式由css控制，css有�
 git submodule add --depth 1 https://github.com/theme-next/theme-next-pace source/lib/pace
 ```
 
+![加载进度条](https://s3.ax1x.com/2021/02/09/ydzxJS.png)
+
+```
+git submodule add --depth 1 https://github.com/stevenjoezhang/live2d-widget.git source/lib/live2d-widget
+```
+

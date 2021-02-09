@@ -10,3 +10,6 @@
 [submodule "source/lib/pace"]
 	path = source/lib/pace
 	url = https://github.com/theme-next/theme-next-pace
+[submodule "source/lib/live2d-widget"]
+	path = source/lib/live2d-widget
+	url = https://github.com/stevenjoezhang/live2d-widget.git
