@@ -91,3 +91,12 @@ git rm -r --cached actions
 52a73c0d7f6af17588b4941829cd0ef8da372875
 ```
 
+```
+html是由很多元素组成的，而每个元素的样式由css控制，css有很多属性，比如这个background，还有这个设置透明度的，设置内边距(padding)，外边距(margin)的。
+我们要充分利用浏览器的开发者工具，谷歌浏览器是F12，Edge也是，你看，我用这个选中我想修改的元素，而元素的样式可以通过一个又一个的类来控制，你看这个post-block类，（class就是类的意思：class="post-block"），在css，我们通过 .post-block来为类设置属性，你看我改变它的background
+```
+
+```c
+git submodule add --depth 1 https://github.com/theme-next/theme-next-pace source/lib/pace
+```
+
