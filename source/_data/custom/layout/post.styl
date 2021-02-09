@@ -30,3 +30,21 @@
     font-family: Comic Sans MS;
     text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
 }
+
+/* 顶部空白,适配mobile */
+
+.header, .main-inner {
+	margin-top: 10px;
+
+	+mobile() {
+		margin-top: 0;
+	}
+}
+/*扩大左右间距,适配mobile*/
+.main-inner {
+	margin-left: 21px;
+	
+	+mobile() {
+		margin-left: 0;
+	}	
+}

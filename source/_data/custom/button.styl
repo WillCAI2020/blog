@@ -1,19 +1,21 @@
-.back-to-top {
-  right: 60px;
-  width: 70px;  //图片素材宽度
-  height: 350px;  //图片素材高度
-  opacity: 1;
-  bottom: unset;
-  transition: all .5s ease-in-out;
-  background: url("/images/scroll.png");
+@media screen and (min-width: 1200px){
+	.back-to-top {
+	  right: 60px;
+	  width: 70px;  //图片素材宽度
+	  height: 350px;  //图片素材高度
+	  opacity: 1;
+	  bottom: unset;
+	  transition: all .5s ease-in-out;
+	  background: url("/images/scroll.png");
 
-  //隐藏箭头图标
-  > i {
-    display: none;
-  }
+	  //隐藏箭头图标
+	  > i {
+		display: none;
+	  }
 
-  &.back-to-top-on {
-    bottom: unset;
-    top: 0px;
-  }
+	  &.back-to-top-on {
+		bottom: unset;
+		top: 0px;
+	  }
+	}
 }
