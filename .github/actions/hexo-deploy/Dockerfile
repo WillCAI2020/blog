@@ -1,7 +1,8 @@
 FROM archlinux
 
-RUN apt-get update
-RUN apt-get install sudo
+RUN pacman -Sy
+
+RUN pacman -S sudo
 
 RUN sudo pacman-db-upgrade
 
