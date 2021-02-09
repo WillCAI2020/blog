@@ -1,8 +1,6 @@
 FROM archlinux
 
-RUN su
-RUN pacman-db-upgrade
-RUN pacman -Syu --noconfirm nodejs npm git openssh
+RUN pacman -S --noconfirm nodejs npm git openssh
 
 COPY entrypoint.sh /entrypoint.sh
 
