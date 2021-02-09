@@ -1,9 +1,9 @@
 ---
-title: record_actions
+title: 记录探索 Github Actions
 tags: [record,hexo]
 categories: [博客]
 date: 2021-02-09 15:57:27
-rc: blog-record-actions
+rc: 003
 ---
 
 在实践中成长与学习，在学习后巩固与整理。
@@ -167,6 +167,7 @@ ENTRYPOINT ["/entrypoint.sh"]
 ```
 
 ```sh
+# .github/actions/hexo-deploy/entrypoint.sh 
 #!/bin/bash
 # Required environment variables:
 #
@@ -210,6 +211,8 @@ pushd public \
 && popd
 rm -rf /root/.ssh
 ```
+
+使用方法参考[此文](https://io-oi.me/tech/deploy-hugo-to-github-pages-via-github-actions/)即可。
 
 ### 说明
 

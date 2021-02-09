@@ -1,6 +1,6 @@
 ---
 title: Hello World
-rc: hello-world
+rc: 001
 categories: [博客]
 tags: [record]
 ---

@@ -1,7 +1,7 @@
 ---
 title: 记录
 date: 2021-02-07 23:03:02
-rc: blog-record
+rc: 002
 tags: [record,hexo]
 categories: [博客]
 ---
