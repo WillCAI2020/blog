@@ -30,7 +30,7 @@ jobs:
         DEPLOY_BRANCH: main
         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}        
       run: |
-        sed -e
+        set -e
         REMOTE_REPO="git@github.com:${DEPLOY_REPO}.git"
         REMOTE_BRANCH="${DEPLOY_BRANCH}"
         git config --global user.name "${GITHUB_ACTOR}"
