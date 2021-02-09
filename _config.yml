@@ -1076,3 +1076,7 @@ theme_config:
     typing_effect:
       colorful: true  # 礼花特效
       shake: false    # 震动特效
+      
+    # darkmode.js
+    darkmode_js: 
+      enable: false
