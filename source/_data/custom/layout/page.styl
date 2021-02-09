@@ -1,0 +1,28 @@
+/* pagination-删去页码框 */
+.pagination {
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+/* pagination-页码按钮 */
+.pagination .prev,
+.pagination .next,
+.pagination .page-number {
+  color: white;
+  border: none;
+  border-radius: 1em;
+
+  &:hover {
+    color: red;
+    background: $btn-default-hover-bg;
+    btn-shadow-hover-only();
+  }
+}
+
+/* pagination-当前页码 */
+.pagination .page-number.current {
+  opacity: 0.5
+  background: #4b0080;
+  btn-shadow-only();
+}
