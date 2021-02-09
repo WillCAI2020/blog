@@ -36,8 +36,8 @@ jobs:
         git config --global user.name "${GITHUB_ACTOR}"
         git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         ssh-keyscan -t rsa github.com > /root/.ssh/known_hosts && \
-        echo "${DEPLOY_KEY}" > /root/.ssh/id_rsa && \
-        chmod 400 /root/.ssh/id_rsa
+        sudo echo "${DEPLOY_KEY}" > /root/.ssh/id_rsa && \
+        sudo chmod 400 /root/.ssh/id_rsa
         
     - name: 'Deploy to Github Pages'        
       env:
