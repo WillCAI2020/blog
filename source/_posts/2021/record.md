@@ -5,7 +5,8 @@ rc: blog-record
 tags: [record,hexo]
 categories: [博客]
 ---
-记录。
+
+随手记。
 
 <!--more-->
 ```
@@ -77,3 +78,16 @@ https://github.com/WillCAI2020/blog/edit/main/source/
 ```
 
 ![彩色标签页](https://s3.ax1x.com/2021/02/09/yaffns.png)
+
+```
+a7ee87d5b4b364c71deb97c0a88976b982c41c01
+```
+
+```
+git rm -r --cached actions
+```
+
+```
+52a73c0d7f6af17588b4941829cd0ef8da372875
+```
+
