@@ -545,7 +545,7 @@ theme_config:
     # ---------------------------------------------------------------
 
     font:
-      enable: false
+      enable: true
 
       # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
       host:
@@ -558,20 +558,20 @@ theme_config:
       # Global font settings used for all elements inside <body>.
       global:
         external: true
-        family: Lato
+        family: EB Garamond, Noto Serif SC
         size:
 
       # Font settings for site title (.site-title).
       title:
         external: true
         family:
-        size:
+        size: 2
 
       # Font settings for headlines (<h1> to <h6>).
       headings:
         external: true
         family:
-        size:
+        size: 1.48
 
       # Font settings for posts (.post-body).
       posts:
