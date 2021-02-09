@@ -527,8 +527,8 @@ theme_config:
 
     # `Follow me on GitHub` banner in the top-right corner.
     github_banner:
-      enable: false
-      permalink: https://github.com/yourname
+      enable: true
+      permalink: https://github.com/WillCAI2020
       title: Follow me on GitHub
 
 
