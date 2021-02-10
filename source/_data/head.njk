@@ -1,0 +1,15 @@
+{# title、keywords、desc关键字	优化SEO #}
+{% if page.title %}
+  <title>{{ page.title }}</title>
+  <meta name="title" content="{{ page.title }}" />
+{% endif %}
+{% if page.keywords %}
+  <meta name="keywords" content="{{ page.keywords }}" />
+{% elif page.tags and page.tags.length %}
+  <meta name="keywords" content="{% for tag in page.tags %}{{ tag.name }},{% endfor %}" />
+{% elif theme.keywords %}
+  <meta name="keywords" content="{{ theme.keywords }}" />
+{% endif %}
+{% if page.desc %}
+  <meta name="description" content="{{ page.desc }}" />
+{% endif %}

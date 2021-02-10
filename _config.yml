@@ -151,7 +151,7 @@ theme_config:
     # Define custom file paths.
     # Create your custom files in site directory `source/_data` and uncomment needed files below.
     custom_file_path:
-      #head: source/_data/head.njk
+      head: source/_data/head.njk
       #header: source/_data/header.njk
       #sidebar: source/_data/sidebar.njk
       postMeta: source/_data/post-meta.njk
@@ -604,7 +604,7 @@ theme_config:
 
     # Google Webmaster tools verification.
     # See: https://developers.google.com/search
-    google_site_verification:
+    google_site_verification: oBBHdCGSaI3kLWpQj0iEn84dQ9_7lnFP3Muc1O-hF8c
 
     # Bing Webmaster tools verification.
     # See: https://www.bing.com/webmasters
