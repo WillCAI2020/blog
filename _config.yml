@@ -616,7 +616,7 @@ theme_config:
 
     # Baidu Webmaster tools verification.
     # See: https://ziyuan.baidu.com/site
-    baidu_site_verification:
+    baidu_site_verification: code-A7TAz42gKV
 
 
     # ---------------------------------------------------------------
