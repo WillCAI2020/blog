@@ -1,0 +1,65 @@
+// 分类页面page
+.category-all-page {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: #797D7F;
+    padding: 20px 30px 40px 30px;
+    border-radius: 25px 25px 25px 25px;
+}
+.category-all-title {
+    font-family: Impact;
+    font-size: 24px;
+    color: aqua;
+}
+//数字
+.category-list-count{
+	color: aqua !important;
+}
+//限制电脑
++tablet-desktop() {
+  .category-list-item {
+    margin: 10px 12px;
+  }
+
+  ul.category-list {
+    text-align: center;
+  }
+
+  li.category-list-item {
+    display: inline-block;
+  }
+
+  li.category-list-item a {
+    line-height: 5;
+    word-break: keep-all;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: white;
+    background: #4a3b4a;
+    border-bottom: none;
+    border-radius: 15px;
+    btn-shadow();
+
+    &:hover {
+	  color: aqua;
+      text-decoration: none;
+    }
+  }
+}
+
++mobile() {
+  .category-all-page .category-list-item {
+    margin: 10px 40px;
+  }
+  
+  li.category-list-item a {
+	color: white;
+  }
+
+  .category-all-page .category-all ul {
+    list-style-type: disc;
+  }
+  &:hover {
+	color: aqua;
+    text-decoration: none;
+  }
+}
