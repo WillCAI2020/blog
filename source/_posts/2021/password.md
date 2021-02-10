@@ -6,8 +6,11 @@ categories: [博客]
 date: 2021-02-10 17:37:57
 rc: 008
 password: 2021
+theme: up
 abstract: <div class="article_encrypt_abstract">暂不公开，请勿打扰 ～<font size="5" color="red">【状态：加密】</font></div>
-message: 密码提示：今年年份
+message: 密码提示：今年年份（输入密码后回车）
+wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
+wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
 ---
 
 测试插件 hexo-blog-encrypt。
