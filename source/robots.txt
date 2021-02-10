@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Allow: /overview/
+Allow: /images/
+Disallow: /js/
+Disallow: /_data/
+Disallow: /lib/
+Disallow: /fonts/
+
+Sitemap: https://WillCAI2020.github.io/sitemap.xml

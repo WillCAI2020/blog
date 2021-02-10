@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+url: https://willcai2020.github.io/
 root: /
 permalink: :year/:month/:day/:rc/
 permalink_defaults:
@@ -126,7 +126,9 @@ search:
 # 文章加密功能
 encrypt:
     enable: true
-
+# 网站SEO
+sitemap:
+  path: sitemap.xml
 theme_config:
     # ===============================================================
     # It's recommended to use Alternate Theme Config to configure NexT
