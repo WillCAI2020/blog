@@ -1068,8 +1068,8 @@ theme_config:
     images: images
     
     # 鼠标点击特效
-    # mouse click effect: fireworks | explosion | love
-    cursor_effect: fireworks
+    # mouse click effect: fireworks | explosion | love | text
+    cursor_effect: text
 
     # 打字特效
     # typing effect
