@@ -35,3 +35,11 @@ message: 查看博客，密码输入框上面的描述性文字
 
 [hexo-blog-encrypt 资料](https://github.com/MikeCoder/hexo-blog-encrypt/blob/master/ReadMe.zh.md)。
 
+
+{% fold 点击显/隐内容 %}
+```nginx
+{% fold 点击显/隐内容 %}
+something you want to fold, include code block.
+{% endfold %}
+```
+{% endfold %}
