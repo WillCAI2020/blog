@@ -123,6 +123,10 @@ search:
   format: html
   limit: 100
 
+# 文章加密功能
+encrypt:
+    enable: true
+
 theme_config:
     # ===============================================================
     # It's recommended to use Alternate Theme Config to configure NexT
