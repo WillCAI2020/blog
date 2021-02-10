@@ -1069,7 +1069,7 @@ theme_config:
     
     # 鼠标点击特效
     # mouse click effect: fireworks | explosion | love | text
-    cursor_effect: text
+    cursor_effect: fireworks
 
     # 打字特效
     # typing effect
