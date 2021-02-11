@@ -120,8 +120,7 @@
                 right: "32px",
                 left: "unset",
                 time: "0.3s",
-                mixColor: "#fff",
-                backgroundColor: "#fff",
+                mixColor: "#000",
                 buttonColorDark: "#100f2c",
                 buttonColorLight: "#fff",
                 label: "",
@@ -155,10 +154,6 @@
                 .concat(
                   t.buttonColorLight,
                   ";\n      }\n\n      .darkmode-toggle--inactive {\n        display: none;\n      }\n\n      .darkmode-background {\n        background: "
-                )
-                .concat(
-                  t.backgroundColor,
-                  ";\n        position: fixed;\n        pointer-events: none;\n        z-index: -10;\n        width: 100%;\n        height: 100%;\n        top: 0;\n        left: 0;\n      }\n\n      img, .darkmode-ignore {\n        isolation: isolate;\n        display: inline-block;\n      }\n\n      @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {\n        .darkmode-toggle {display: none !important}\n      }\n\n      @supports (-ms-ime-align:auto), (-ms-accelerator:true) {\n        .darkmode-toggle {display: none !important}\n      }\n    "
                 ),
               o = document.createElement("div"),
               a = document.createElement("button"),

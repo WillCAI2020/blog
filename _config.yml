@@ -1085,4 +1085,4 @@ theme_config:
       
     # darkmode.js
     darkmode_js: 
-      enable: false
+      enable: true

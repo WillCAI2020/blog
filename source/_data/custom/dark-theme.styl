@@ -17,3 +17,71 @@ body.dark-theme {
     border: 3px solid red;
 }
 */
+
+//修改darkmode.js样式
+/*主体 main-inner */
+.darkmode--activated .main-inner{
+  background: rgba(40,44,52,0.9);	/*区分阴影度*/
+}
+/* 文章块 post-block */
+.darkmode--activated .post-block{
+  opacity: 1;
+  background: #282c34;				/*背景颜色*/
+  color: #92fbfb;					/*文字颜色*/
+}
+/* 页脚 */
+.darkmode--activated .footer{
+  color: #92fbfb;					/*页脚颜色*/
+}
+/* 文章尾部上下文 */
+.darkmode--activated .post-nav-item a{
+  color: #92fbfb;					/*上下文颜色*/
+  &:hover {
+    color: #FFD700;					/* 移动至所显现颜色*/
+  }
+}
+
+/* header上部的下部 */
+.darkmode--activated .main-menu{
+  background: #282c34;				/*header上部分颜色*/
+  border-radius: 0 0 $myradius $myradius;	/*设置圆角*/
+}
+.darkmode--activated .menu-item a{
+  &:hover {
+	border-radius: $myradius;
+    background: #382d2d;			/* 移动至所显现颜色*/
+	color: aqua;
+  }
+}
+.darkmode--activated a.menu-item-active{
+	border-radius: $myradius;
+    background: #382d2d;			/* 选中时显现颜色*/
+}
+
+/* 设置 brand 背景 */
+.darkmode--activated .site-brand-container{
+  background: url(/images/header-bg1.jpg);
+  background-repeat: repeat;
+  background-position: 70% 20%;
+  background-size: cover;
+}
+/* 设置header下部 */
+.darkmode--activated .sidebar-inner{
+	background: #282c34;
+}
+.darkmode--activated .site-state-item a{
+  &:hover {
+	color: aqua;
+  }
+}
+.darkmode--activated .links-of-author-item a{
+  &:hover {
+	background: #382d2d;
+	color: aqua;
+  }
+}
+
+/* 设置二级标题 */
+.darkmode--activated  .sub-menu{
+  background: #282c34;
+}
