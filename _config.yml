@@ -120,7 +120,7 @@ symbols_count_time:
 search:
   path: search.xml
   field: post
-  format: html
+  format: raw
   limit: 100
 
 # 文章加密功能
