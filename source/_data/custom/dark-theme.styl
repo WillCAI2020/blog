@@ -19,6 +19,9 @@ body.dark-theme {
 */
 
 //修改darkmode.js样式
+.darkmode--activated {
+  background: #000 !important;	/* 去除mix-blend-mode实现背景 */
+}
 /*主体 main-inner */
 .darkmode--activated .main-inner{
   background: rgba(40,44,52,0.9);	/*区分阴影度*/
@@ -84,4 +87,25 @@ body.dark-theme {
 /* 设置二级标题 */
 .darkmode--activated  .sub-menu{
   background: #282c34;
+}
+
+/* 搜索页面背景颜色 */
+.darkmode--activated  .search-header,
+.darkmode--activated  .search-result-container{
+  background: #282c34;
+}
+
+/* 搜索页面字体颜色 */
+.darkmode--activated  .search-input,
+.darkmode--activated  .search-result-container,
+.darkmode--activated  .search-result-list a{
+  color: white;
+}
+/* 搜索页面鼠标划入变化 */
+.darkmode--activated  .search-result-list a{
+  border-bottom: 1px solid white;
+  &:hover {
+	color: aqua;
+	border-bottom: 1px solid aqua;
+  } 
 }

@@ -120,7 +120,6 @@
                 right: "32px",
                 left: "unset",
                 time: "0.3s",
-                mixColor: "#000",
                 buttonColorDark: "#100f2c",
                 buttonColorLight: "#fff",
                 label: "",
@@ -130,10 +129,10 @@
               t
             );
             var n = "\n      .darkmode-layer {\n        position: fixed;\n        pointer-events: none;\n        background: "
-                .concat(t.mixColor, ";\n        transition: all ")
+                
                 .concat(
                   t.time,
-                  " ease;\n        mix-blend-mode: difference;\n      }\n\n      .darkmode-layer--button {\n        width: 2.9rem;\n        height: 2.9rem;\n        border-radius: 50%;\n        right: "
+                  " ease;\n              }\n\n      .darkmode-layer--button {\n        width: 2.9rem;\n        height: 2.9rem;\n        border-radius: 50%;\n        right: "
                 )
                 .concat(t.right, ";\n        bottom: ")
                 .concat(t.bottom, ";\n        left: ")
