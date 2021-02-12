@@ -13,4 +13,23 @@ keywords: next,darkmode
 
 ## 方法一
 
-我的版本
+我的版本：
+
+{% tabs version %}
+<!-- tab Next -->
+
+<strong><div align="center">version：8.2.1</div></strong>
+
+<!-- endtab -->
+
+<!-- tab Hexo-->
+<strong><div align="center">hexo: 5.3.0
+hexo-cli: 3.1.0</div></strong>
+<!-- endtab -->
+
+{% endtabs %}
+
+<hr>
+
+试试
+
