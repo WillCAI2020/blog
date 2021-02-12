@@ -27,7 +27,7 @@ jobs:
         npm i -g hexo-cli
         npm i
         hexo clean
-        hexo g        
+        hexo g
     - name: Deploy to Github Pages
       env:
         GIT_NAME: WillCAI2020
