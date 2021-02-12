@@ -108,4 +108,5 @@ hexo-cli: 3.1.0</div></strong>
 
    至此已完成，效果如下：
 
-   ![theme_change_method1](try-light-dark-themes/method1.gif)
+   <img alt="method1" class="gifplayer" src="./method1.png" >
+
