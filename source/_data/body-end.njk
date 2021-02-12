@@ -51,3 +51,13 @@ const darkmode = new Darkmode(options);
 darkmode.showWidget();
 </script>
 {%- endif %}
+
+<!-- HTML -->
+
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('js/sw.js');
+        });
+    }
+</script>
