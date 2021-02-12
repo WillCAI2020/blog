@@ -6,10 +6,10 @@ date: 2021-02-09 18:09:52
 rc: 005
 ---
 
-解决提示：“
-On branch main
+{% cq %}解决提示：
+“On branch main
 Your branch is up to date with 'origin/main'.”
-不能上传代码的问题。
+不能上传代码的问题。{% endcq %}
 <!--more-->
 ## 记录
 
@@ -24,41 +24,42 @@ Your branch is up to date with 'origin/main'.
 
 于是搜索，根据这篇文章： [git commit提示Your branch is up-to-date with 'origin/master'.](https://www.jianshu.com/p/e25c763b9816)，认为是版本分支的原因（不大懂）。
 
-### 新建分支
+1. ### 新建分支
 
-```c
-git branch newbranch
-//查看是否是否创建成功
-git branch 
-//若结果中有 newbranch，即成功
-```
+    ```c
+    git branch newbranch
+    //查看是否是否创建成功
+    git branch 
+    //若结果中有 newbranch，即成功
+    ```
 
-### 切换新分支并提交改动
+2. ### 切换新分支并提交改动
 
-```c
-git checkout newbranch
-    git add . 
-git commit -m "改动"
-```
+    ```c
+    git checkout newbranch
+        git add . 
+    git commit -m "改动"
+    ```
 
-### 切换主分支并合并改动
+3. ### 切换主分支并合并改动
 
-```c
-git checkout master
-git merge newbranch 
-```
+    ```c
+    git checkout master
+    git merge newbranch 
+    ```
 
-### 提交代码
+4. ### 提交代码
 
-```c
-git push -u origin master
-```
+    ```c
+    git push -u origin master
+    ```
 
-### 删除新分支
+5. ### 删除新分支
 
-```c
-git branch -D newbranch
-```
+    ```c
+    git branch -D newbranch
+    ```
+
 
 ## 后记
 

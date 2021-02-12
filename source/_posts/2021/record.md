@@ -6,7 +6,7 @@ tags: [record,hexo]
 categories: [博客]
 ---
 
-随手记。
+{% cq %}随手记。{% endcq %}
 
 <!--more-->
 ```

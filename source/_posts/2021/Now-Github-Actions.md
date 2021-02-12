@@ -6,7 +6,7 @@ date: 2021-02-09 17:31:01
 rc: 004
 ---
 
-完整实现 Github Actions 持续部署！
+{% cq %}完整实现 Github Actions 持续部署！{% endcq %}
 <!--more-->
 
 ## 更新
@@ -70,20 +70,21 @@ jobs:
 
 变量命名以及步骤解释在此文均有讲解，这里不再赘述。
 
-### 分支
+1. ### 分支
 
-2020年10月份开始 GitHub 把默认的 master 分支换成了 main 分支。为了方便，我在远程仓库的分支也设为了 main 分支。这里注意：本地 `git init`后默认仍为 master 分支，此时应将新建 main 分支，并切换到 main 分支。
+    2020年10月份开始 GitHub 把默认的 master 分支换成了 main 分支。为了方便，我在远程仓库的分支也设为了 main 分支。这里注意：本地 `git init`后默认仍为 master 分支，此时应将新建 main 分支，并切换到 main 分支。
 
-```c
-//新建 main 分支，并切换到 main 分支
-git checkout -b main
-```
+    ```c
+    //新建 main 分支，并切换到 main 分支
+    git checkout -b main
+    ```
 
-### 仓库
+2. ### 仓库
 
-我的源码放在了仓库 blog 中，但是为使用 gh-pages，生成的 public 静态文件必须放在 username.github.io 的仓库中。
+    我的源码放在了仓库 blog 中，但是为使用 gh-pages，生成的 public 静态文件必须放在 username.github.io 的仓库中。
 
-故而添加的 Secrets 变量均在 bolg 仓库中。
+    故而添加的 Secrets 变量均在 bolg 仓库中。
+
 
 ## 错误总结
 
