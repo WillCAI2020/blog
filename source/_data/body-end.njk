@@ -52,5 +52,21 @@ darkmode.showWidget();
 </script>
 {%- endif %}
 
-<!-- HTML -->
+<script>
+    if ('serviceWorker' in navigator) {
+        if (navigator.serviceWorker.controller) {
+            navigator.serviceWorker.addEventListener('controllerchange', function() {
+                showNotification();
+            });
+        }
 
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/sw.js');
+        });
+    }
+
+    function showNotification() {
+        document.querySelector('meta[name=theme-color]').content = '#000';
+        document.getElementById('app-refresh').className += ' app-refresh-show';
+    }
+</script>
