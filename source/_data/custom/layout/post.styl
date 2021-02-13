@@ -2,13 +2,19 @@
 /*主体透明度*/
 .main-inner {
 	border-radius: $myradius;
-	background-color: rgba(255, 255, 255, 0);
+	background-color: rgba(255, 255, 255, 0.9);
 }
 
 /* 修改选中字符的颜色 */
 ::selection {
-  background: rgba(255, 165, 0, 0.9);
+  background: rgba(255, 165, 0, 0.5);
   color: #9932CC;
+}
+
+//透明度
+.post-block{
+//	background-color: rgba(255,255,255,0.7) !important;		//透明度不会被继承（多重子元素将看不到底层元素）
+	opacity: 0.88;											//会被继承
 }
 
 /* post-文章卡片圆角 */
@@ -38,7 +44,6 @@
 	}	
 	/* post块 */
 	.post-block{
-		opacity: 0.95;		/*透明度*/
 		margin: 0px 36px 24px 36px;
 		//margin-bottom: 24px;
 		padding: 24px;
