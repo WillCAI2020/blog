@@ -52,6 +52,12 @@ darkmode.showWidget();
 </script>
 {%- endif %}
 
+<div class="app-refresh" id="app-refresh">
+    <div class="app-refresh-wrap" onclick="location.reload()">
+        <label>已更新最新版本</label>
+        <a>点击刷新</a>
+    </div>
+</div>
 <script>
     if ('serviceWorker' in navigator) {
         if (navigator.serviceWorker.controller) {
@@ -63,5 +69,10 @@ darkmode.showWidget();
         window.addEventListener('load', function() {
             navigator.serviceWorker.register('/sw.js');
         });
+    }
+
+    function showNotification() {
+        document.querySelector('meta[name=theme-color]').content = '#000';
+        document.getElementById('app-refresh').className += ' app-refresh-show';
     }
 </script>
