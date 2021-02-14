@@ -1007,7 +1007,7 @@ theme_config:
     # Canvas ribbon
     # For more information: https://github.com/hustcc/ribbon.js
     canvas_ribbon:
-      enable: true
+      enable: false
       size: 300 # The width of the ribbon
       alpha: 0.6 # The transparency of the ribbon
       zIndex: -1 # The display level of the ribbon
@@ -1126,3 +1126,6 @@ theme_config:
     # darkmode.js
     darkmode_js: 
       enable: true
+    
+    ribbon_flow: 
+       enable: true
