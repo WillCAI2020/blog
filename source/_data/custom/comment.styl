@@ -1,0 +1,32 @@
+/************************* Comment ************************/
+
+/* comment-圆角 */
+.comments {
+  border-radius: $myradius !important;
+}
+@media screen and (min-width: 1200px){
+	.comments {
+		margin: 0px 36px 24px 36px;
+	}
+}
+
+/* 去除power by */
+.vpower.txt-right {
+  display: none;
+}
+
+/* comment-输入框背景图片 */
+.veditor {
+	background-image: url('/images/comment-bg.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: right !important;
+}
+.veditor:focus {
+	background-position-y: 200px !important;
+	transition: all .2s ease-in-out 0s !important;
+}
+
+.vcontent img[src^="https://img.t.sinajs.cn"] {
+  width: 1.2em !important;
+  display: inline !important;
+}
