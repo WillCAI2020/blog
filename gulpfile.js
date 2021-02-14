@@ -21,7 +21,7 @@ const pipeline = require('readable-stream').pipeline;
 
 // 清除public文件夹
 gulp.task("clean", function () {
-    return del(["public/**/*"]);
+    return del(["public/**/*","db.json"]);
 });
 
 // 下面几个跟hexo有关的操作，主要通过hexo.call()去执行，注意return
