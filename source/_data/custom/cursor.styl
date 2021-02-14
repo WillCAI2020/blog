@@ -1,6 +1,6 @@
 //普遍设置
 body{
-	cursor: url('/cursor/正常选择.cur'), auto;
+	cursor: url('/cursor/正常选择.cur'), auto !important;
 }
 p{
 	cursor: url('/cursor/文本选择.cur'), auto;
@@ -13,6 +13,10 @@ button{
 }
 //细微调整
 
+.site-title{
+	cursor: url('/cursor/链接选择.cur'), auto !important;
+}	
+
 //文章
 .post-title{
 	cursor: url('/cursor/文本选择.cur'), auto;
@@ -20,9 +24,11 @@ button{
 .post-meta-item-text{
 	cursor: url('/cursor/文本选择.cur'), auto;
 }
-
+h1,h2,h3,h4,h5{
+	cursor: url('/cursor/文本选择.cur'), auto;
+}
 //代码
-.code,.line{
+.code{
 	cursor: url('/cursor/文本选择.cur'), auto;
 }
 .copy-btn{
