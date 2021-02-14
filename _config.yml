@@ -554,7 +554,7 @@ theme_config:
       enable: true
 
       # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
-      host:
+      host: https://fonts.loli.net
 
       # Font options:
       # `external: true` will load this font family from `host` above.
@@ -564,7 +564,7 @@ theme_config:
       # Global font settings used for all elements inside <body>.
       global:
         external: true
-        family:
+        family: EB Garamond, Noto Serif SC
         size:
 
       # Font settings for site title (.site-title).
@@ -999,7 +999,7 @@ theme_config:
 
       # Font Awesome
       # For more information: https://fontawesome.com
-      fontawesome:
+      fontawesome: https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.2/css/all.min.css
 
       # Prism
       prism:
