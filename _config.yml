@@ -129,6 +129,23 @@ encrypt:
 # 网站SEO
 sitemap:
   path: sitemap.xml
+  
+# Valine
+# For more information: https://valine.js.org, https://github.com/xCss/Valine
+valine:
+  enable: true
+  appId:  g3bxnCFl2ipLWY1xwfxwmQGn-MdYXbMMI     # your leancloud application appid
+  appKey: m4bAAoxs0EgrKutUB7qWtLto              # your leancloud application appkey
+  notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!' # comment box placeholder
+  avatar: monsterid # gravatar style
+  meta: [nick, mail, link] # Custom comment header
+  pageSize: 10 # pagination size
+  language: zh-cn # language, available values: en, zh-cn
+  visitor: true # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
+  comment_count: true # If false, comment count will only be displayed in post page, not in home page
+
 theme_config:
     # ===============================================================
     # It's recommended to use Alternate Theme Config to configure NexT
