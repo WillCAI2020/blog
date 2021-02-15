@@ -257,6 +257,7 @@ theme_config:
         default: /overview/ || fa fa-book
         tags: /tags/ || fa fa-tags
         timeline: /timeline/ || fa fa-hourglass
+      links: /links || fab fa-meetup
       #about: /about/ || fa fa-user
       #categories: /categories/ || fa fa-th
       #archives: /archives/ || fa fa-archive
