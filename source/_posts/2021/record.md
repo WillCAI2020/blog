@@ -9,6 +9,7 @@ categories: [博客]
 {% cq %}随手记。{% endcq %}
 
 <!--more-->
+
 ```
 hexo init
 git init
@@ -77,7 +78,7 @@ npm install hexo-generator-searchdb --save
 https://github.com/WillCAI2020/blog/edit/main/source/
 ```
 
-![彩色标签页](https://s3.ax1x.com/2021/02/09/yaffns.png)
+<img class="lazyload" src="/images/comment-bg.png" data-src="https://s3.ax1x.com/2021/02/09/yaffns.png" width="1245" height="387" alt="彩色标签页">
 
 ```
 a7ee87d5b4b364c71deb97c0a88976b982c41c01
@@ -106,3 +107,8 @@ git submodule add --depth 1 https://github.com/theme-next/theme-next-pace source
 git submodule add --depth 1 https://github.com/stevenjoezhang/live2d-widget.git source/lib/live2d-widget
 ```
 
+<img class="lazyload" src="/images/comment-bg.png" data-src="https://willcai2020.github.io/009/method1.png" width="800" height="375" alt="test1">
+
+<img class="lazyload" src="/images/comment-bg.png" data-src="https://s3.ax1x.com/2021/02/15/y6T1QH.jpg" width="602" height="338" alt="test2">
+
+<img class="lazyload" src="/images/comment-bg.png" data-src="https://s3.ax1x.com/2021/02/15/y6TlSe.jpg" width="600" height="338" alt="test3">
