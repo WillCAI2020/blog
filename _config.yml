@@ -993,8 +993,8 @@ theme_config:
       transition:
         # All available transition variants: https://theme-next.js.org/animate/
         post_block: fadeIn
-        post_header: fadeInLeftBig
-        post_body: fadeInRightBig
+        post_header: slideDownIn
+        post_body: zoomIn
         coll_header: slideLeftIn
         # Only for Pisces | Gemini.
         sidebar: slideUpIn
