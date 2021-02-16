@@ -109,6 +109,6 @@ git submodule add --depth 1 https://github.com/stevenjoezhang/live2d-widget.git 
 
 <img class="lazyload" src="/images/comment-bg.png" data-src="https://willcai2020.github.io/009/method1.png" width="800" height="375" alt="test1">
 
-<img class="lazyload" src="/images/comment-bg.png" data-src="https://s3.ax1x.com/2021/02/15/y6T1QH.jpg" width="602" height="338" alt="test2">
+<img class="lazyload" src="/images/comment-bg.png" data-src="https://i.loli.net/2021/02/16/x39c4XnuqQeCgt7.jpg" width="602" height="338" alt="test2">
 
-<img class="lazyload" src="/images/comment-bg.png" data-src="https://s3.ax1x.com/2021/02/15/y6TlSe.jpg" width="600" height="338" alt="test3">
+<img class="lazyload" src="/images/comment-bg.png" data-src="https://i.loli.net/2021/02/16/ze5hlG1NIERATts.jpg" width="600" height="338" alt="test3">
