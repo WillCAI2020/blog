@@ -151,7 +151,7 @@ valine:
 # For more information: https://waline.js.org, https://github.com/lizheming/waline
 waline:
   enable: true
-  serverURL: https://blog-waline-omega.vercel.app/ # Waline server address url
+  serverURL: https://waline-wheat.vercel.app/ # Waline server address url
   avatar: wavatar # Gravatar style
   avatarCDN: https://sdn.geekzu.org/avatar/
   meta: [nick, mail, link] # Custom comment header
@@ -167,6 +167,55 @@ waline:
     nick: 昵称（必填）
     mail: 邮箱（必填）
     link: 网址（http:// 选填）
+  emojiCDN: '//cdn.jsdelivr.net/gh/WillCAI2020/cdn/emotion/'
+  emojiMaps: 
+    aoteman: "weibo/d_aoteman.png"
+    baibai: "weibo/d_baibai.png"
+    baobao: "weibo/d_baobao.png"
+    beishang: "weibo/d_beishang.png"
+    bingbujiandan: "weibo/d_bingbujiandan.png"
+    chigua: "weibo/d_chigua.png"
+    chijing: "weibo/d_chijing.png"
+    dahaqi: "weibo/d_dahaqi.png"
+    doge: "weibo/d_doge.png"
+    erha: "weibo/d_erha.png"
+    miao: "weibo/d_miao.png"
+    feijie: "weibo/d_feijie.png"
+    guzhang: "weibo/d_guzhang.png"
+    haha: "weibo/d_haha.png"
+    haixiu: "weibo/d_haixiu.png"
+    han: "weibo/d_han.png"
+    hehe: "weibo/d_hehe.png"
+    heiheihei: "weibo/d_heiheihei.png"
+    heixian: "weibo/d_heixian.png"
+    heng: "weibo/d_heng.png"
+    huaixiao: "weibo/d_huaixiao.png"
+    jiyan: "weibo/d_jiyan.png"
+    keai: "weibo/d_keai.png"
+    kelian: "weibo/d_kelian.png"
+    ku: "weibo/d_ku.png"
+    kun: "weibo/d_kun.png"
+    landelini: "weibo/d_landelini.png"
+    lei: "weibo/d_lei.png"
+    qinqin: "weibo/d_qinqin.png"
+    shayan: "weibo/d_shayan.png"
+    sikao: "weibo/d_sikao.png"
+    taikaixin: "weibo/d_taikaixin.png"
+    xiaoku: "weibo/d_xiaoku.png"
+    xingxingyan: "weibo/d_xingxingyan.png"
+    xixi: "weibo/d_xixi.png"
+    yun: "weibo/d_yun.png"
+    daoweixiao: "weibo/daoweixiao.png"
+    yunbei: "weibo/d_yunbei.png"
+    zhuakuang: "weibo/d_zhuakuang.png"    
+    ghost: "weibo/ghost.png"
+    祈祷: "weibo/祈祷.png"
+    good: "weibo/h_good.png"
+    jiayou: "weibo/h_jiayou.png"
+    ok: "weibo/h_ok.png"
+    不出所料: "alu/不出所料.png"
+    不说话: "alu/不说话.png"
+    不高兴: "alu/不高兴.png"
 
 
 theme_config:
