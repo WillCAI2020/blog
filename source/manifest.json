@@ -3,12 +3,12 @@
     "short_name": "ruchan",
     "icons": [
         {
-			"src": "./images/512.png",
+			"src": "https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/avatar/512.png",
 			"sizes": "512x512",
 			"type": "image/png"	
         },
 		{
-			"src": "./images/192.png",
+			"src": "https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/avatar/192.png",
 			"sizes": "192x192",
 			"type": "image/png"
 		}		
