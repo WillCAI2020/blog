@@ -107,8 +107,8 @@ git submodule add --depth 1 https://github.com/theme-next/theme-next-pace source
 git submodule add --depth 1 https://github.com/stevenjoezhang/live2d-widget.git source/lib/live2d-widget
 ```
 
-<img class="lazyload" src="/images/comment-bg.png" data-src="https://willcai2020.github.io/009/method1.png" width="800" height="375" alt="test1">
+<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading.gif" data-src="https://willcai2020.github.io/009/method1.png" width="800" height="375" alt="test1">
 
-<img class="lazyload" src="/images/comment-bg.png" data-src="https://i.loli.net/2021/02/16/x39c4XnuqQeCgt7.jpg" width="602" height="338" alt="test2">
+<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading.gif" data-src="https://i.loli.net/2021/02/16/x39c4XnuqQeCgt7.jpg" width="602" height="338" alt="test2">
 
-<img class="lazyload" src="/images/comment-bg.png" data-src="https://i.loli.net/2021/02/16/ze5hlG1NIERATts.jpg" width="600" height="338" alt="test3">
+<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading.gif" data-src="https://i.loli.net/2021/02/16/ze5hlG1NIERATts.jpg" width="600" height="338" alt="test3">
