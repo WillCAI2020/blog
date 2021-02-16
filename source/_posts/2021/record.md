@@ -78,7 +78,7 @@ npm install hexo-generator-searchdb --save
 https://github.com/WillCAI2020/blog/edit/main/source/
 ```
 
-<img class="lazyload" src="/images/comment-bg.png" data-src="https://s3.ax1x.com/2021/02/09/yaffns.png" width="1245" height="387" alt="彩色标签页">
+<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading_cai.gif" data-src="https://s3.ax1x.com/2021/02/09/yaffns.png"  alt="彩色标签页">
 
 ```
 a7ee87d5b4b364c71deb97c0a88976b982c41c01
@@ -107,8 +107,61 @@ git submodule add --depth 1 https://github.com/theme-next/theme-next-pace source
 git submodule add --depth 1 https://github.com/stevenjoezhang/live2d-widget.git source/lib/live2d-widget
 ```
 
-<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading.gif" data-src="https://willcai2020.github.io/009/method1.png" width="800" height="375" alt="test1">
+<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading_cai.gif" data-src="https://willcai2020.github.io/009/method1.png" alt="test1">
 
-<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading.gif" data-src="https://i.loli.net/2021/02/16/x39c4XnuqQeCgt7.jpg" width="602" height="338" alt="test2">
+<hr>
 
-<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading.gif" data-src="https://i.loli.net/2021/02/16/ze5hlG1NIERATts.jpg" width="600" height="338" alt="test3">
+<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading_cai.gif" data-src="https://i.loli.net/2021/02/16/x39c4XnuqQeCgt7.jpg" alt="test2">
+
+<hr>
+
+<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading_cai.gif" data-src="https://i.loli.net/2021/02/16/ze5hlG1NIERATts.jpg" alt="test3">
+
+
+
+```html
+<div class='tip'><p>默认情况<p></div>
+<div class='tip success'><p>success<p></div>
+<div class='tip error'><p>error<p></div>
+<div class='tip warning'><p>warning<p></div>
+```
+
+<div class='tip'><p>默认情况<p></div>
+<div class='tip success'><p>success<p></div>
+<div class='tip error'><p>error<p></div>
+<div class='tip warning'><p>warning<p></div>
+
+```
+<a href="https://willcai2020.github.io/" class="LinkCard">欢迎来到——我的小站</a>
+```
+
+<a href="https://willcai2020.github.io/" class="LinkCard">欢迎来到——我的小站</a>
+
+```
+/* note语法示例 */
+<p class='div-border green'>绿色</p>
+<p class='div-border red'>红色</p>
+<p class='div-border yellow'>黄色</p>
+<p class='div-border grey'>灰色</p>
+<p class='div-border blue'>蓝色</p>
+
+/* 小tag标签语法示例 */
+<span class="inline-tag red">红色小标签</span>
+<span class="inline-tag green">绿色小标签</span>
+<span class="inline-tag blue">蓝色小标签</span>
+<span class="inline-tag yellow">黄色小标签</span>
+<span class="inline-tag grey">灰色小标签</span>
+```
+/* note语法示例 */
+<p class='div-border green'>绿色</p>
+<p class='div-border red'>红色</p>
+<p class='div-border yellow'>黄色</p>
+<p class='div-border grey'>灰色</p>
+<p class='div-border blue'>蓝色</p>
+
+/* 小tag标签语法示例 */
+<span class="inline-tag red">红色小标签</span>
+<span class="inline-tag green">绿色小标签</span>
+<span class="inline-tag blue">蓝色小标签</span>
+<span class="inline-tag yellow">黄色小标签</span>
+<span class="inline-tag grey">灰色小标签</span>
