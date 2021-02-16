@@ -391,7 +391,7 @@ theme_config:
     avatar:
       # Replace the default image and set the url here.
       #url: https://s3.ax1x.com/2021/02/08/yaFYF0.gif
-      url: images/avatar.png
+      url: https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/avatar/avatar.png
       # If true, the avatar will be dispalyed in circle.
       rounded: false
       # If true, the avatar will be rotated with the cursor.
@@ -535,8 +535,8 @@ theme_config:
       comment: 🥤 赏杯饮料~
 
     reward:
-      wechatpay: /images/wechatpay.png
-      alipay: /images/alipay.png
+      wechatpay: https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/wechatpay.png
+      alipay: https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/alipay.png
       #paypal: /images/paypal.png
       #bitcoin: /images/bitcoin.png
 
