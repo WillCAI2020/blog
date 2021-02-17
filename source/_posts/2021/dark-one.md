@@ -810,6 +810,4 @@ keywords: 深色主题,hexo,next
 
 
 
-<video>
-<source src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/videos/method.mp4">
-</video>
+<img alt="method1" class="gifplayer" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/dark-one/an-one.png" >
