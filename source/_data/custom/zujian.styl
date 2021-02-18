@@ -1,0 +1,296 @@
+/* 组件部分 begin */
+#RightDownBtn>a{
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0.3125rem 0;
+    transition: .2s cubic-bezier(.25, .46, .45, .94);
+}
+#RightDownBtn {
+    position: fixed;
+    right: 32px;
+    bottom: 64px;
+    padding: 0.3125rem 0.625rem;
+    background: #fff;
+    border-radius: 0.1875rem;
+    box-shadow: 0 0 0.3125rem rgba(0, 0, 0, .4);
+    transition: 0.3s ease all;
+    z-index: 1000;
+    align-items: flex-end;
+    flex-direction: column;
+    display: -moz-flex;
+    display: flex;
+    float: right;
+}
+/* 组件部分 end */
+
+/* 深色模式 begin */
+.DarkMode strong,
+.DarkMode img {
+    filter: brightness(.7);
+}
+
+.DarkMode body{
+  background: #12121c !important;
+}
+
+/*主体 main-inner */
+.DarkMode .main-inner{
+  background: rgba(40,44,52,0.5);	/*区分阴影度*/
+}
+
+.DarkMode .post-block,				/*文章*/
+.DarkMode .main-menu,				/*header上部分颜色*/
+.DarkMode  .sub-menu,				/* 设置二级标题 */
+.DarkMode  .popup,					/*搜索*/
+.DarkMode  .search-result-container{
+  background: #282c34 !important;	/*背景颜色*/
+}
+
+/* 文章块 post-block */
+.DarkMode .post-block{
+  opacity: 1;
+}
+
+.DarkMode .post-block,				/*文章*/
+.DarkMode .menu-item a,				/*menu*/
+.DarkMode .site-author-name,		/*侧栏作者*/
+.DarkMode .site-description,		/*侧栏描述*/
+.DarkMode .site-state-item-count,	/*侧栏分类数*/
+.DarkMode .site-state-item-name,	/*侧栏分类名*/
+.DarkMode .links-of-author-item a,	/*社交*/
+.DarkMode .sidebar-nav li,			/*侧栏分类标题*/
+.DarkMode .post-toc ol a,			/*上下文颜色*/
+.DarkMode .post-nav-item a,			/*侧栏文章标题*/
+.DarkMode .footer,					/*页脚颜色*/
+.DarkMode  .search-input,			/*搜索*/
+.DarkMode  .search-result-container,
+.DarkMode  .search-result-list a,
+.DarkMode  .back-to-top,
+.DarkMode  #waifu-tips{				/* live2d 文字颜色 */	
+	color: rgba(255, 255, 255, .6) !important;
+}
+
+/* header上部*/
+.DarkMode .main-menu{
+  border-radius: 0 0 $myradius $myradius;	/*设置圆角*/
+}
+/* 设置 brand 背景 */
+.DarkMode .site-brand-container{
+  background: url(https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/header-bg1.jpg);
+  background-repeat: repeat;
+  background-position: 70% 20%;
+  background-size: cover;
+}
+/* 设置header下部 */
+.DarkMode .sidebar-inner{
+	background: #282c34;
+}
+
+.DarkMode a.menu-item-active{
+	border-radius: $myradius;
+    background: #382d2d;			/* 选中时显现颜色*/
+}
+.DarkMode .menu-item a:hover{
+	border-radius: $myradius;
+    background: #382d2d;			/* 移动至所显现颜色*/
+	color: aqua;
+}
+
+.DarkMode .site-state-item-count,
+.DarkMode .site-state-item-name,
+.DarkMode .links-of-author-item a{
+  &:hover {
+	background: #382d2d;
+	color: aqua !important;
+  }
+}
+
+.DarkMode .post-toc ol a{
+  &:hover {
+	border-bottom-color: #fc6423;
+	color: #fc6423 !important;
+  }
+}
+
+.DarkMode .sidebar-toc-active .sidebar-nav-toc,					/*侧栏选中时*/
+.DarkMode .sidebar-overview-active .sidebar-nav-overview
+.DarkMode .post-toc .nav .active > a{
+	color: aqua !important;
+	border-bottom-color: aqua !important;
+}
+
+/* 文章尾部上下文 */
+.DarkMode .post-nav-item a:hover{
+    color: aqua;					/* 移动至所显现颜色*/
+}
+
+
+/* 设置二级标题 */
+.DarkMode  .sub-menu{
+  background: #282c34;
+}
+
+.DarkMode  .search-header{
+	background: #353232 !important;
+}
+/* 搜索页面鼠标划入变化 */
+.DarkMode  .search-result-list a{
+  border-bottom: 1px solid white;
+  &:hover {
+	color: aqua !important;
+	border-bottom: 1px solid aqua;
+  } 
+}
+
+.DarkMode  #waifu-tips span{
+  color: purple;				/* live2d 注意颜色 */
+}
+
+/* 设置超链接 */
+.DarkMode .post-meta-item a,
+.DarkMode .post-body p a{
+  color: rgba(0,255,255,.6);
+  border-bottom: 1px solid rgba(0,255,255,.6);
+  &:hover {
+    color: #fc6423;
+    border-bottom: 1px solid #fc6423;
+  }
+}
+
+/* 评论区 */
+.DarkMode  .comments{
+  background: #282c34;
+}
+.DarkMode  a.vlogin-btn,
+.DarkMode  .vnick,
+.DarkMode  .vmail,
+.DarkMode  .vlink,
+.DarkMode  .vmail,
+.DarkMode  .veditor,
+.DarkMode  .vinput p,
+.DarkMode  .vinput h1,
+.DarkMode  .vinput h2,
+.DarkMode  .vinput h3{
+	color: #92fbfb !important;
+}
+.DarkMode  a.vlogin-btn{
+  &:hover {
+    color: #FFD700 !important;
+  }
+}
+/* 选中字体 */
+.DarkMode ::selection{
+	color: aqua !important;
+}
+/* 深色模式 end */
+
+
+/* sun and noon */
+.Cuteen_DarkSky,
+.Cuteen_DarkSky:before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 88888888
+}
+
+.Cuteen_DarkSky {
+    background: linear-gradient(#feb8b0, #fef9db)
+}
+
+.Cuteen_DarkSky:before {
+    transition: 2s ease all;
+    opacity: 0;
+    background: linear-gradient(#4c3f6d, #6c62bb, #93b1ed)
+}
+
+.DarkMode .Cuteen_DarkSky:before {
+    opacity: 1
+}
+
+.Cuteen_DarkPlanet {
+    z-index: 99999999;
+    position: fixed;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    -webkit-animation: CuteenPlanetMove 2s cubic-bezier(.7, 0, 0, 1);
+    animation: CuteenPlanetMove 2s cubic-bezier(.7, 0, 0, 1);
+    transform-origin: center bottom
+}
+
+@-webkit-keyframes CuteenPlanetMove {
+    0% {
+        transform: rotate(0)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes CuteenPlanetMove {
+    0% {
+        transform: rotate(0)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.Cuteen_DarkPlanet:after {
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    width: 9.375rem;
+    height: 9.375rem;
+    border-radius: 50%;
+    content: "";
+    background: linear-gradient(#fefefe, #fffbe8)
+}
+/* sun and noon.end */
+
+/* 音乐-旋转 */
+.xuanzhuan{
+  -webkit-animation: rotate 3s linear infinite;
+  -moz-animation: rotate 3s linear infinite;
+  -o-animation: rotate 3s linear infinite;
+  animation: rotate 3s linear infinite;
+}
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(0);
+  }
+  to {
+    -moz-transform: rotate(359deg);
+  }
+}
+@-o-keyframes rotate {
+  from {
+    -o-transform: rotate(0);
+  }
+  to {
+    -o-transform: rotate(359deg);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
