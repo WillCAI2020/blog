@@ -640,7 +640,7 @@ theme_config:
     back2top:
       enable: true
       # Back to top in sidebar.
-      sidebar: false
+      sidebar: true
       # Scroll percent label in b2t button.
       scrollpercent: true
 
@@ -1220,4 +1220,4 @@ theme_config:
     ribbon_flow: 
        enable: true
        
-    bg_music: https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/music/慵懒的猫.mp3       
+    bg_music: https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/music/慵懒的猫.mp3      
