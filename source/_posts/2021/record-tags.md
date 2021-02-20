@@ -219,31 +219,18 @@ mermaid:
     {% endmermaid %}
     ```
 
-    {% mermaid graph TD %}
-    A[Hard] -->|Text| B(Round)
-    B --> C{Decision}
-    C -->|One| D[Result 1]
-    C -->|Two| E[Result 2]
-    {% endmermaid %}
-
     ```nginx
     {% mermaid graph TD %}
     A[Christmas] -->|Get money| B(Go shopping)
     B --> C{Let me thinksssss<br/>ssssssssssssssssssssss}
     C -->|One| D[Laptop]
     C -->|Two| E[iPhone]
-    C -->|Three| F[Car]
+C -->|Three| F[Car]
     {% endmermaid %}
     ```
-
-    {% mermaid graph TD %}
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[Car]
-    {% endmermaid %}
-
+    
+    <p class='div-border red'>有错误，不用</p>
+    
 4. ### cq && centerquote
 
     ```nginx
