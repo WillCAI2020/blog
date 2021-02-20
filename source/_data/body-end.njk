@@ -67,12 +67,19 @@
 <script src="https://cdn.bootcdn.net/ajax/libs/gitter-sidecar/1.3.3/sidecar.js" async defer></script>
 
 
+{# 简易的Lazyload #}
+<script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+
 {# 友链设置 #}
 {% if page.type === 'links' %}
   <script src="/js/links.js"></script>
 {% else %}
 
 {% endif %}
+
+<script>
+	$("img.lazyload").lazyload();
+</script>
 
 {# 添加小组件 #}
 <div id="RightDownBtn">

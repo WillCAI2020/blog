@@ -1,4 +1,3 @@
-document.write("<script language='javascript' src='https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js' ></script>");
 link1 = {
   init: function () {
     var that = this;
