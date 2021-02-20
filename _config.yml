@@ -1218,6 +1218,6 @@ theme_config:
       enable: true
     
     ribbon_flow: 
-       enable: true
+       enable: false
        
     bg_music: https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/music/慵懒的猫.mp3      
