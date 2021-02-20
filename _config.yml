@@ -694,7 +694,7 @@ theme_config:
       # Global font settings used for all elements inside <body>.
       global:
         external: true
-        family: Acme, EB Garamond, Noto Serif SC
+        family: Acme, Noto Serif SC
         size:
 
       # Font settings for site title (.site-title).
