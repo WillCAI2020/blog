@@ -131,7 +131,8 @@ blockquote p,
 .DarkMode .main-menu,				/*header上部分颜色*/
 .DarkMode  .sub-menu,				/* 设置二级标题 */
 .DarkMode  .popup,					/*搜索*/
-.DarkMode  .search-result-container{
+.DarkMode  .search-result-container,
+.DarkMode  .vcol button.vsubmit{
   background: #282c34 !important;	/*背景颜色*/
 }
 
@@ -155,7 +156,24 @@ blockquote p,
 .DarkMode  .search-result-container,
 .DarkMode  .search-result-list a,
 .DarkMode  .back-to-top,
-.DarkMode  #waifu-tips{				/* live2d 文字颜色 */	
+.DarkMode  #waifu-tips,
+.DarkMode  a.vlogin-btn,
+.DarkMode  .vnick,
+.DarkMode  .vmail,
+.DarkMode  .vlink,
+.DarkMode  .veditor,
+.DarkMode  .vcol button,
+.DarkMode  .vcount,
+.DarkMode  .vpreview p,
+.DarkMode  .vpreview h1,
+.DarkMode  .vpreview h2,
+.DarkMode  .vpreview h3,
+.DarkMode  .vpreview ol,
+.DarkMode  .vcontent p,
+.DarkMode  .vcontent h1,
+.DarkMode  .vcontent h2,
+.DarkMode  .vcontent h3,
+.DarkMode  .vcontent ol{				/* live2d 文字颜色 */	
 	color: rgba(255, 255, 255, .6) !important;
 }
 
@@ -210,7 +228,7 @@ blockquote p,
 
 /* 文章尾部上下文 */
 .DarkMode .post-nav-item a:hover{
-    color: aqua;					/* 移动至所显现颜色*/
+    color: #fc6423 !important;						/* 移动至所显现颜色*/
 }
 
 
@@ -250,27 +268,25 @@ blockquote p,
 .DarkMode  .comments{
   background: #282c34;
 }
-.DarkMode  a.vlogin-btn,
-.DarkMode  .vnick,
-.DarkMode  .vmail,
-.DarkMode  .vlink,
-.DarkMode  .vmail,
-.DarkMode  .veditor,
-.DarkMode  .vinput p,
-.DarkMode  .vinput h1,
-.DarkMode  .vinput h2,
-.DarkMode  .vinput h3{
-	color: #92fbfb !important;
-}
+
+.DarkMode  a,
 .DarkMode  a.vlogin-btn{
   &:hover {
-    color: #FFD700 !important;
+    color: #fc6423 !important;
+	border-bottom-color: #fc6423 !important;
+  }
+}
+.DarkMode  .vcol button{
+  &:hover {
+    color: #fc6423 !important;
+	border-color: #fc6423 !important;
   }
 }
 /* 选中字体 */
 .DarkMode ::selection{
 	color: aqua !important;
 }
+
 /* 深色模式 end */
 
 
