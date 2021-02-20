@@ -107,7 +107,7 @@ git submodule add --depth 1 https://github.com/theme-next/theme-next-pace source
 git submodule add --depth 1 https://github.com/stevenjoezhang/live2d-widget.git source/lib/live2d-widget
 ```
 
-<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading_cai.gif" data-src="https://willcai2020.github.io/009/method1.png" alt="test1">
+<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading_cai.gif" data-src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/try-light-dark-themes/method1.png" alt="test1">
 
 <hr>
 
