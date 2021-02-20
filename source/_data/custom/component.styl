@@ -131,8 +131,7 @@ blockquote p,
 .DarkMode .main-menu,				/*header上部分颜色*/
 .DarkMode  .sub-menu,				/* 设置二级标题 */
 .DarkMode  .popup,					/*搜索*/
-.DarkMode  .search-result-container,
-.DarkMode  .vcol button.vsubmit{
+.DarkMode  .search-result-container{
   background: #282c34 !important;	/*背景颜色*/
 }
 
@@ -158,7 +157,7 @@ blockquote p,
 .DarkMode  .back-to-top,
 .DarkMode  #waifu-tips,
 .DarkMode  a.vlogin-btn,
-.DarkMode  .vnick,
+.DarkMode  .vright .vheader .vnick,
 .DarkMode  .vmail,
 .DarkMode  .vlink,
 .DarkMode  .veditor,
@@ -282,11 +281,13 @@ blockquote p,
 	border-color: #fc6423 !important;
   }
 }
-/* 选中字体 */
-.DarkMode ::selection{
-	color: aqua !important;
-}
 
+.DarkMode  .vcol span.vicon,
+.DarkMode  .vcol svg.markdown{
+	fill: currentColor;
+	color: rgba(255, 255, 255, .6);
+}
+	
 /* 深色模式 end */
 
 
@@ -449,24 +450,93 @@ blockquote p,
 
 /* comment-输入框背景图片 */
 .veditor {
-	background-image: url("https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/comment1.webp") !important;
-	background-repeat: no-repeat !important;
-	background-position: right !important;
+	background-image: url(https://image.bestzuo.cn/images/20200708160947.gif!getwebp) !important;
+  background-size: 200px !important;
+  background-repeat: no-repeat !important;
+  background-position: right !important;
+  background-color: rgba(255, 255, 255, 0) !important;
+  resize: vertical;
 }
 .veditor:focus {
-	background-position-y: 200px !important;
-	transition: all .2s ease-in-out 0s !important;
+  background-position-y: 200px !important;
+  transition: all 0.2s ease-in-out 0s !important;
 }
-
-.vcontent img[src^="https://img.t.sinajs.cn"] {
-  width: 1.2em !important;
-  display: inline !important;
++tablet-desktop() {
+  .v[data-class=v] .vwrap {
+    border: 1px solid #2d2d2da3 !important;
+  }
+  .DarkMode .v[data-class=v] .vwrap {
+    border: 1px solid #969896 !important;
+  }
+  button.vsubmit.vbtn {
+    background: #ce1b1b !important;
+    color: #fff !important;
+    border: none !important;
+  }
+  .DarkMode button.vsubmit.vbtn {
+    background: #ce1b1b94 !important;
+  }
+  button.vsubmit.vbtn:hover {
+    border: none !important;
+    background: red !important;
+  }
+  .comments .vcards .vcard {
+    padding: 15px 20px 0 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.12);
+    transition: all 0.3s;
+  }
+  .comments .vcards .vcard:hover {
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.12);
+  }
+  .DarkMode .comments .vcards .vcard {
+    box-shadow: none;
+    border: 1px dashed #55555582;
+  }
+  .comments .vcards .vcard .vh {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  .comments .vcards .vcard .vh .vcard {
+    border: none;
+    box-shadow: none;
+  }
+  .comments .vcards .vcard .vh .vquote {
+    border-left: none;
+  }
+  span.vat {
+    color: #2196f3 !important;
+    font-weight: 700;
+  }
+  .DarkMode span.vat {
+    color: #2196f3 !important;
+  }
+  .comments .vmore {
+    background: #66b1ff !important;
+    color: #fff !important;
+    border: none !important;
+  }
+  .comments .vmore:hover {
+    background: #2880dc !important;
+    border: none !important;
+  }
+  .DarkMode .comments .vmore {
+    -webkit-filter: brightness(0.7) !important;
+    filter: brightness(0.7) !important;
+  }
+  .DarkMode .comments .vmore:hover {
+    -webkit-filter: brightness(0.7) !important;
+    filter: brightness(0.7) !important;
+  }  
 }
-
 .vinput.vpreview img,
 .vcontent img{
   width: 1.2em !important;
   display: inline !important;
+}
+.v[data-class="v"] .vcards .vcard .vhead .vnick {
+  color: #bfb216;
 }
 /****************************************/
 /*************评论 end*******************/
