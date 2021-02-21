@@ -96,7 +96,7 @@
             </use>
         </svg>
     </a>
-    <a id="say" href="#waline-comments" target="_self" title="转至底部/评论区">
+    <a onclick="scrollToComment()" target="_self" title="转至评论区">
 		<svg style=" width: 1.5em;height: 1.5em;" class="icon" aria-hidden="true">
 			<use xlink:href="#icon-ketangtaolun">
 				<svg t=1592151989892 id=icon-ketangtaolun viewBox="0 0 1025 1024" version=1.1
@@ -223,18 +223,12 @@
 						500);
 					return false;
 				});
-			});
-			$(function () {
-				$("#say").click(function () {
-					$('body,html').animate({
-							scrollTop: $('html, body').get(0).scrollHeight
-						},
-						500);
-					return false;
-				});
 			})
 		}
-	
+		function scrollToComment() {
+		  var t = $("#waline-comments").offset().top;
+		  $("html,body").animate({ scrollTop: t }, 500);
+		}	
 		function switchNightMode() {
 		  $(
 			'<div class="Cuteen_DarkSky"><div class="Cuteen_DarkPlanet"></div></div>'
