@@ -393,7 +393,7 @@ theme_config:
       #url: https://s3.ax1x.com/2021/02/08/yaFYF0.gif
       url: https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/avatar/avatar.png
       # If true, the avatar will be dispalyed in circle.
-      rounded: false
+      rounded: true
       # If true, the avatar will be rotated with the cursor.
       rotated: false
 
