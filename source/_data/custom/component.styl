@@ -33,52 +33,52 @@ blockquote p,
 /*************back2top begin*************/
 /****************************************/
 .back-to-top {
-	font-size: 0.9em;
-	margin-top: 0px !important;
-	background: rgba(255,255,255,0);
-	//隐藏箭头图标
-	> i {
-		display: none;
-	}
+  font-size: 0.9em;
+  margin-top: 0px !important;
+  background: rgba(255, 255, 255, 0);
+  //隐藏箭头图标
+  > i {
+    display: none;
+  }
 }
 /****************************************/
 /*************back2top end***************/
 /****************************************/
 
-
 /****************************************/
 /*************更新提示 begin*************/
 /****************************************/
 .app-refresh {
-    background: #9a719c;
-	border-radius: 12px;
-    height: 0;
-    line-height: 3em;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    padding: 0 1em;
-    transition: all .3s ease;
+  background: #9a719c;
+  border-radius: 12px;
+  height: 0;
+  line-height: 3em;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 0 1em;
+  transition: all 0.3s ease;
 }
-.app-refresh-wrap ,.app-refresh-wrap a{
-	font-weight: bold;
-    display: flex;
-    color: aqua;
+.app-refresh-wrap,
+.app-refresh-wrap a {
+  font-weight: bold;
+  display: flex;
+  color: aqua;
 }
 .app-refresh-wrap label {
-    flex: 1;
+  flex: 1;
 }
-.app-refresh-wrap button{
-	background: #9a719c;
-	border: none;
-	font-weight: bold;
-	color: aqua;
+.app-refresh-wrap button {
+  background: #9a719c;
+  border: none;
+  font-weight: bold;
+  color: aqua;
 }
 .app-refresh-show {
-    height: 3em;
+  height: 3em;
 }
 /****************************************/
 /*************更新提示 end***************/
@@ -87,15 +87,15 @@ blockquote p,
 /****************************************/
 /*************WAIFU begin****************/
 /****************************************/
-#waifu #live2d{
-	height: 250px !important;
-	width: 250px !important;
+#waifu #live2d {
+  height: 250px !important;
+  width: 250px !important;
 }
-#waifu-tips{
-	margin: -50px 20px !important;
+#waifu-tips {
+  margin: -50px 20px !important;
 }
-#waifu-tool{
-	top: 30px !important;
+#waifu-tool {
+  top: 30px !important;
 }
 
 /****************************************/
@@ -106,34 +106,34 @@ blockquote p,
 /*************悬浮组件 begin*************/
 /****************************************/
 /* 整体 begin */
-#RightDownBtn>a{
-    width: 1.5em;
-    height: 1.5em;
-    margin: 0.3125rem 0;
-    transition: .2s cubic-bezier(.25, .46, .45, .94);
-	border-bottom: none !important;
+#RightDownBtn > a {
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0.3125rem 0;
+  transition: 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  border-bottom: none !important;
 }
 #RightDownBtn svg.icon,
 #RightDownBtn svg#music,
-#RightDownBtn a{
-	width: 21px !important;
-	height: 21px !important;
+#RightDownBtn a {
+  width: 21px !important;
+  height: 21px !important;
 }
 #RightDownBtn {
-    position: fixed;
-    right: 32px;
-    bottom: 64px;
-    padding: 0.3125rem 0.5rem;
-    background: #fff;
-    border-radius: 0.1875rem;
-    box-shadow: 0 0 0.3125rem rgba(0, 0, 0, .4);
-    transition: 0.3s ease all;
-    z-index: 1000;
-    align-items: flex-end;
-    flex-direction: column;
-    display: -moz-flex;
-    display: flex;
-    float: right;
+  position: fixed;
+  right: 32px;
+  bottom: 64px;
+  padding: 0.3125rem 0.5rem;
+  background: #fff;
+  border-radius: 0.1875rem;
+  box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.4);
+  transition: 0.3s ease all;
+  z-index: 1000;
+  align-items: flex-end;
+  flex-direction: column;
+  display: -moz-flex;
+  display: flex;
+  float: right;
 }
 /* 组件部分 end */
 
@@ -143,33 +143,33 @@ blockquote p,
 .DarkMode strong,
 .DarkMode .note,
 .DarkMode img {
-    filter: brightness(.7) !important;
-	-webkit-filter: brightness(.7) !important;
+  filter: brightness(0.7) !important;
+  -webkit-filter: brightness(0.7) !important;
 }
 
-.DarkMode #RightDownBtn{
+.DarkMode #RightDownBtn {
   background: #222c;
 }
 
-.DarkMode body{
+.DarkMode body {
   background: #12121c !important;
 }
 
 /*主体 main-inner */
-.DarkMode .main-inner{
-  background: rgba(40,44,52,0.5);	/*区分阴影度*/
+.DarkMode .main-inner {
+  background: rgba(40, 44, 52, 0.5); /*区分阴影度*/
 }
 
 .DarkMode .post-block,				/*文章*/
 .DarkMode .main-menu,				/*header上部分颜色*/
 .DarkMode  .sub-menu,				/* 设置二级标题 */
 .DarkMode  .popup,					/*搜索*/
-.DarkMode  .search-result-container{
-  background: #282c34 !important;	/*背景颜色*/
+.DarkMode  .search-result-container {
+  background: #282c34 !important; /*背景颜色*/
 }
 
 /* 文章块 post-block */
-.DarkMode .post-block{
+.DarkMode .post-block {
   opacity: 1;
 }
 
@@ -205,91 +205,91 @@ blockquote p,
 .DarkMode  .vcontent h1,
 .DarkMode  .vcontent h2,
 .DarkMode  .vcontent h3,
-.DarkMode  .vcontent ol{				/* live2d 文字颜色 */	
-	color: rgba(255, 255, 255, .6) !important;
+.DarkMode  .vcontent ol {
+  /* live2d 文字颜色 */
+  color: rgba(255, 255, 255, 0.6) !important;
 }
 
 /* header上部*/
-.DarkMode .main-menu{
-  border-radius: 0 0 $myradius $myradius;	/*设置圆角*/
+.DarkMode .main-menu {
+  border-radius: 0 0 $myradius $myradius; /*设置圆角*/
 }
 /* 设置 brand 背景 */
-.DarkMode .site-brand-container{
-  background: url(https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/header-bg1.jpg);
+.DarkMode .site-brand-container {
+  background: url(https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/header-bg1.webp);
   background-repeat: repeat;
   background-position: 70% 20%;
   background-size: cover;
 }
 /* 设置header下部 */
-.DarkMode .sidebar-inner{
-	background: #282c34;
+.DarkMode .sidebar-inner {
+  background: #282c34;
 }
 
-.DarkMode a.menu-item-active{
-	border-radius: $myradius;
-    background: #382d2d;			/* 选中时显现颜色*/
+.DarkMode a.menu-item-active {
+  border-radius: $myradius;
+  background: #382d2d; /* 选中时显现颜色*/
 }
-.DarkMode .menu-item a:hover{
-	border-radius: $myradius;
-    background: #382d2d;			/* 移动至所显现颜色*/
-	color: aqua;
+.DarkMode .menu-item a:hover {
+  border-radius: $myradius;
+  background: #382d2d; /* 移动至所显现颜色*/
+  color: aqua;
 }
 
 .DarkMode .site-state-item-count,
 .DarkMode .site-state-item-name,
-.DarkMode .links-of-author-item a{
+.DarkMode .links-of-author-item a {
   &:hover {
-	background: #382d2d;
-	color: aqua !important;
+    background: #382d2d;
+    color: aqua !important;
   }
 }
 
-.DarkMode .post-toc ol a{
+.DarkMode .post-toc ol a {
   &:hover {
-	border-bottom-color: #fc6423;
-	color: #fc6423 !important;
+    border-bottom-color: #fc6423;
+    color: #fc6423 !important;
   }
 }
 
 .DarkMode .sidebar-toc-active .sidebar-nav-toc,					/*侧栏选中时*/
 .DarkMode .sidebar-overview-active .sidebar-nav-overview
-.DarkMode .post-toc .nav .active > a{
-	color: aqua !important;
-	border-bottom-color: aqua !important;
+.DarkMode .post-toc .nav .active > a {
+  color: aqua !important;
+  border-bottom-color: aqua !important;
 }
 
 /* 文章尾部上下文 */
-.DarkMode .post-nav-item a:hover{
-    color: #fc6423 !important;						/* 移动至所显现颜色*/
+.DarkMode .post-nav-item a:hover {
+  color: #fc6423 !important; /* 移动至所显现颜色*/
 }
 
-
 /* 设置二级标题 */
-.DarkMode  .sub-menu{
+.DarkMode .sub-menu {
   background: #282c34;
 }
 
-.DarkMode  .search-header{
-	background: #353232 !important;
+.DarkMode .search-header {
+  background: #353232 !important;
 }
 /* 搜索页面鼠标划入变化 */
-.DarkMode  .search-result-list a{
+.DarkMode .search-result-list a {
   border-bottom: 1px solid white;
   &:hover {
-	color: aqua !important;
-	border-bottom: 1px solid aqua;
-  } 
+    color: aqua !important;
+    border-bottom: 1px solid aqua;
+  }
 }
 
-.DarkMode  #waifu-tips span{
-  color: purple;				/* live2d 注意颜色 */
+.DarkMode #waifu-tips span {
+  color: purple; /* live2d 注意颜色 */
 }
 
 /* 设置超链接 */
 .DarkMode .post-meta-item a,
-.DarkMode .post-body p a{
-  color: rgba(0,255,255,.6);
-  border-bottom: 1px solid rgba(0,255,255,.6);
+.DarkMode .post-body p a {
+  color: rgba(0, 255, 255, 0.6);
+  border-bottom: 1px solid rgba(0, 255, 255, 0.6);
   &:hover {
     color: #fc6423;
     border-bottom: 1px solid #fc6423;
@@ -297,105 +297,104 @@ blockquote p,
 }
 
 /* 评论区 */
-.DarkMode  .comments{
+.DarkMode .comments {
   background: #282c34;
 }
 
-.DarkMode  a,
-.DarkMode  a.vlogin-btn{
+.DarkMode a,
+.DarkMode a.vlogin-btn {
   &:hover {
     color: #fc6423 !important;
-	border-bottom-color: #fc6423 !important;
+    border-bottom-color: #fc6423 !important;
   }
 }
-.DarkMode  .vcol button{
+.DarkMode .vcol button {
   &:hover {
     color: #fc6423 !important;
-	border-color: #fc6423 !important;
+    border-color: #fc6423 !important;
   }
 }
 
-.DarkMode  .vcol span.vicon,
-.DarkMode  .vcol svg.markdown{
-	fill: currentColor;
-	color: rgba(255, 255, 255, .6);
+.DarkMode .vcol span.vicon,
+.DarkMode .vcol svg.markdown {
+  fill: currentColor;
+  color: rgba(255, 255, 255, 0.6);
 }
-	
+
 /* 深色模式 end */
-
 
 /* sun and noon */
 .Cuteen_DarkSky,
 .Cuteen_DarkSky:before {
-    content: "";
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 88888888
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 88888888;
 }
 
 .Cuteen_DarkSky {
-    background: linear-gradient(#feb8b0, #fef9db)
+  background: linear-gradient(#feb8b0, #fef9db);
 }
 
 .Cuteen_DarkSky:before {
-    transition: 2s ease all;
-    opacity: 0;
-    background: linear-gradient(#4c3f6d, #6c62bb, #93b1ed)
+  transition: 2s ease all;
+  opacity: 0;
+  background: linear-gradient(#4c3f6d, #6c62bb, #93b1ed);
 }
 
 .DarkMode .Cuteen_DarkSky:before {
-    opacity: 1
+  opacity: 1;
 }
 
 .Cuteen_DarkPlanet {
-    z-index: 99999999;
-    position: fixed;
-    left: -50%;
-    top: -50%;
-    width: 200%;
-    height: 200%;
-    -webkit-animation: CuteenPlanetMove 2s cubic-bezier(.7, 0, 0, 1);
-    animation: CuteenPlanetMove 2s cubic-bezier(.7, 0, 0, 1);
-    transform-origin: center bottom
+  z-index: 99999999;
+  position: fixed;
+  left: -50%;
+  top: -50%;
+  width: 200%;
+  height: 200%;
+  -webkit-animation: CuteenPlanetMove 2s cubic-bezier(0.7, 0, 0, 1);
+  animation: CuteenPlanetMove 2s cubic-bezier(0.7, 0, 0, 1);
+  transform-origin: center bottom;
 }
 
 @-webkit-keyframes CuteenPlanetMove {
-    0% {
-        transform: rotate(0)
-    }
+  0% {
+    transform: rotate(0);
+  }
 
-    to {
-        transform: rotate(360deg)
-    }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes CuteenPlanetMove {
-    0% {
-        transform: rotate(0)
-    }
+  0% {
+    transform: rotate(0);
+  }
 
-    to {
-        transform: rotate(360deg)
-    }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .Cuteen_DarkPlanet:after {
-    position: absolute;
-    left: 35%;
-    top: 40%;
-    width: 9.375rem;
-    height: 9.375rem;
-    border-radius: 50%;
-    content: "";
-    background: linear-gradient(#fefefe, #fffbe8)
+  position: absolute;
+  left: 35%;
+  top: 40%;
+  width: 9.375rem;
+  height: 9.375rem;
+  border-radius: 50%;
+  content: "";
+  background: linear-gradient(#fefefe, #fffbe8);
 }
 /* sun and noon.end */
 
 /* 音乐-旋转 */
-.xuanzhuan{
+.xuanzhuan {
   -webkit-animation: rotate 3s linear infinite;
   -moz-animation: rotate 3s linear infinite;
   -o-animation: rotate 3s linear infinite;
@@ -441,23 +440,23 @@ blockquote p,
 /*************gitter组件 begin***********/
 /****************************************/
 /* gitter置于最上层 */
-.gitter-chat-embed{
-	z-index: 10000;
+.gitter-chat-embed {
+  z-index: 10000;
 }
 
-+mobile() {
-	.gitter-open-chat-button{
-		position: flex;
-		left: 10px;
-	}
-	iframe{
-		position: fixed;
-		top: 16px;
-		height: 98% !important;
-	}
-	.gitter-chat-embed-action-bar{
-		z-index: 1000;
-	}
++ mobile() {
+  .gitter-open-chat-button {
+    position: flex;
+    left: 10px;
+  }
+  iframe {
+    position: fixed;
+    top: 16px;
+    height: 98% !important;
+  }
+  .gitter-chat-embed-action-bar {
+    z-index: 1000;
+  }
 }
 /****************************************/
 /*************gitter组件 end*************/
@@ -470,10 +469,10 @@ blockquote p,
 .comments {
   border-radius: $myradius !important;
 }
-@media screen and (min-width: 1200px){
-	.comments {
-		margin: 0px 24px 0px 24px;
-	}
+@media screen and (min-width: 1200px) {
+  .comments {
+    margin: 0px 24px 0px 24px;
+  }
 }
 
 /* 去除power by */
@@ -483,7 +482,7 @@ blockquote p,
 
 /* comment-输入框背景图片 */
 .veditor {
-	background-image: url(https://image.bestzuo.cn/images/20200708160947.gif!getwebp) !important;
+  background-image: url(https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/comment2.webp) !important;
   background-size: 200px !important;
   background-repeat: no-repeat !important;
   background-position: right !important;
@@ -494,11 +493,11 @@ blockquote p,
   background-position-y: 200px !important;
   transition: all 0.2s ease-in-out 0s !important;
 }
-+tablet-desktop() {
-  .v[data-class=v] .vwrap {
++ tablet-desktop() {
+  .v[data-class="v"] .vwrap {
     border: 1px solid #2d2d2da3 !important;
   }
-  .DarkMode .v[data-class=v] .vwrap {
+  .DarkMode .v[data-class="v"] .vwrap {
     border: 1px solid #969896 !important;
   }
   button.vsubmit.vbtn {
@@ -527,15 +526,15 @@ blockquote p,
     box-shadow: none;
     border: 1px dashed #55555582;
   }
-  .v[data-class=v] .vcards .vcard .vh {
+  .v[data-class="v"] .vcards .vcard .vh {
     padding-bottom: 0;
     border-bottom: none !important;
   }
-  .v[data-class=v] .vcards .vcard .vh .vcard {
+  .v[data-class="v"] .vcards .vcard .vh .vcard {
     border: none !important;
     box-shadow: none !important;
   }
-  .v[data-class=v] .vcards .vcard .vh .vquote {
+  .v[data-class="v"] .vcards .vcard .vh .vquote {
     border-left: none !important;
   }
   span.vat {
@@ -561,10 +560,10 @@ blockquote p,
   .DarkMode .comments .vmore:hover {
     -webkit-filter: brightness(0.7) !important;
     filter: brightness(0.7) !important;
-  }  
+  }
 }
 .vinput.vpreview img,
-.vcontent img{
+.vcontent img {
   width: 1.2em !important;
   display: inline !important;
 }
@@ -575,91 +574,113 @@ blockquote p,
 /*************评论 end*******************/
 /****************************************/
 
-
 /****************************************/
 /*************鼠标指针 begin*************/
 /****************************************/
 //普遍设置
-body{
-	cursor: url('https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/正常选择.cur'), auto !important;
+body {
+  cursor: url("https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/正常选择.cur"),
+    auto !important;
 }
-p{
-	cursor: url('https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/文本选择.cur'), auto;
+p {
+  cursor: url("https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/文本选择.cur"),
+    auto;
 }
-a{
-	cursor: url('https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/链接选择.cur'), auto;
+a {
+  cursor: url("https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/链接选择.cur"),
+    auto;
 }
-button{
-	cursor: url('https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/链接选择.cur'), auto !important;
+button {
+  cursor: url("https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/链接选择.cur"),
+    auto !important;
 }
 //细微调整
 
-.site-title{
-	cursor: url('https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/链接选择.cur'), auto !important;
-}	
+.site-title {
+  cursor: url("https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/链接选择.cur"),
+    auto !important;
+}
 
 //文章
-.post-title{
-	cursor: url('https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/文本选择.cur'), auto;
+.post-title {
+  cursor: url("https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/文本选择.cur"),
+    auto;
 }
-.post-meta-item-text{
-	cursor: url('https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/文本选择.cur'), auto;
+.post-meta-item-text {
+  cursor: url("https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/文本选择.cur"),
+    auto;
 }
-h1,h2,h3,h4,h5{
-	cursor: url('https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/文本选择.cur'), auto;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  cursor: url("https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/文本选择.cur"),
+    auto;
 }
 //代码
-.code{
-	cursor: url('https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/文本选择.cur'), auto;
+.code {
+  cursor: url("https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/文本选择.cur"),
+    auto;
 }
-.copy-btn{
-	cursor: url('https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/链接选择.cur'), auto;
+.copy-btn {
+  cursor: url("https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/链接选择.cur"),
+    auto;
 }
 
 //live2d
-#waifu #waifu-tips{
-	cursor: url('https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/文本选择.cur'), auto;
+#waifu #waifu-tips {
+  cursor: url("https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/文本选择.cur"),
+    auto;
 }
-#waifu-tool span{
-	cursor: url('https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/链接选择.cur'), auto !important;
+#waifu-tool span {
+  cursor: url("https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/链接选择.cur"),
+    auto !important;
 }
 
 //fancybox
-.fancybox{
-	cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-in.png"), zoom-out;
+.fancybox {
+  cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-in.png"),
+    zoom-out;
 }
 .fancybox-container .fancybox-stage {
-  cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-out.png"), zoom-out;
+  cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-out.png"),
+    zoom-out;
 }
 
-.fancybox-button{
-	cursor: url('https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/链接选择.cur'), auto !important;
+.fancybox-button {
+  cursor: url("https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/链接选择.cur"),
+    auto !important;
 }
-
-
 
 //搜索
-.search-input{
-	cursor: url('https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/文本选择.cur'), auto;
+.search-input {
+  cursor: url("https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/文本选择.cur"),
+    auto;
 }
-.popup-btn-close,.search-result{
-	cursor: url('https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/链接选择.cur'), auto !important;
+.popup-btn-close,
+.search-result {
+  cursor: url("https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/链接选择.cur"),
+    auto !important;
 }
 
 //回到顶部按钮
-.back-to-top{
-	cursor: url('https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/链接选择.cur'), auto !important;
+.back-to-top {
+  cursor: url("https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/链接选择.cur"),
+    auto !important;
 }
 //评论区
 .vheader input,
-#vedit{
-	cursor: url('https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/文本选择.cur'), auto;
+#vedit {
+  cursor: url("https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/文本选择.cur"),
+    auto;
 }
 a.vlogin-btn,
 .vcol span,
 .vcol a,
-.vcol button{
-	cursor: url('https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/链接选择.cur'), auto !important;
+.vcol button {
+  cursor: url("https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/cursor/链接选择.cur"),
+    auto !important;
 }
 /****************************************/
 /*************鼠标指针 end***************/
