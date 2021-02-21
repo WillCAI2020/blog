@@ -78,7 +78,7 @@ npm install hexo-generator-searchdb --save
 https://github.com/WillCAI2020/blog/edit/main/source/
 ```
 
-<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading_cai.gif" data-src="https://s3.ax1x.com/2021/02/09/yaffns.png"  alt="彩色标签页">
+<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading_cai.webp" data-src="https://s3.ax1x.com/2021/02/09/yaffns.png"  alt="彩色标签页">
 
 ```
 a7ee87d5b4b364c71deb97c0a88976b982c41c01
@@ -107,15 +107,13 @@ git submodule add --depth 1 https://github.com/theme-next/theme-next-pace source
 git submodule add --depth 1 https://github.com/stevenjoezhang/live2d-widget.git source/lib/live2d-widget
 ```
 
-<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading_cai.gif" data-src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/try-light-dark-themes/method1.png" alt="test1">
+<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading_cai.webp" data-src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/try-light-dark-themes/method1.png" alt="test1">
 
 <hr>
-
-<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading_cai.gif" data-src="https://i.loli.net/2021/02/16/x39c4XnuqQeCgt7.jpg" alt="test2">
+<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading_cai.webp" data-src="https://i.loli.net/2021/02/16/x39c4XnuqQeCgt7.jpg" alt="test2">
 
 <hr>
-
-<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading_cai.gif" data-src="https://i.loli.net/2021/02/16/ze5hlG1NIERATts.jpg" alt="test3">
+<img class="lazyload" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/loading_cai.webp" data-src="https://i.loli.net/2021/02/16/ze5hlG1NIERATts.jpg" alt="test3">
 
 
 
