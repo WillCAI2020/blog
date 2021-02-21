@@ -111,12 +111,19 @@ blockquote p,
     height: 1.5em;
     margin: 0.3125rem 0;
     transition: .2s cubic-bezier(.25, .46, .45, .94);
+	border-bottom: none !important;
+}
+#RightDownBtn svg.icon,
+#RightDownBtn svg#music,
+#RightDownBtn a{
+	width: 21px !important;
+	height: 21px !important;
 }
 #RightDownBtn {
     position: fixed;
     right: 32px;
     bottom: 64px;
-    padding: 0.3125rem 0.625rem;
+    padding: 0.3125rem 0.5rem;
     background: #fff;
     border-radius: 0.1875rem;
     box-shadow: 0 0 0.3125rem rgba(0, 0, 0, .4);
@@ -131,9 +138,17 @@ blockquote p,
 /* 组件部分 end */
 
 /* 深色模式 begin */
+.DarkMode .blogroll,
+.DarkMode #RightDownBtn,
 .DarkMode strong,
+.DarkMode .note,
 .DarkMode img {
-    filter: brightness(.7);
+    filter: brightness(.7) !important;
+	-webkit-filter: brightness(.7) !important;
+}
+
+.DarkMode #RightDownBtn{
+  background: #222c;
 }
 
 .DarkMode body{
