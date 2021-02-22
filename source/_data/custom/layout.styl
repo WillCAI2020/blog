@@ -91,6 +91,48 @@ canvas#canvas {
     -webkit-text-stroke: 1.2px #000000;
 }
 
+/* 美化 hr 样式 */
+hr {
+    position: relative;
+    margin: 2rem auto;
+    width: calc(100% - 4px);
+    border: 2px dashed #a4d8fa;
+    background: #fff;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+hr:before {
+    position: absolute;
+    top: -10px;
+    left: 5%;
+    z-index: 1;
+    color: #49b1f5;
+    content: '\f0c4';
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 20px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+hr:hover::before {
+    left: 95%;
+}
+
+/* 修复 edit-link 图标 */
+.post-title i:before {
+    content: '\f040';
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 30px;
+}
+
 /*主体圆角*/
 /*主体透明度*/
 .main-inner {
@@ -118,6 +160,7 @@ canvas#canvas {
 .post-block+.post-block{
   border-radius: $myradius !important;
 }
+
 
 /*适配mobile*/
 @media screen and (min-width: 1200px){
