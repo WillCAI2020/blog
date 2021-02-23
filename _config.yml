@@ -29,7 +29,7 @@ archive_dir: overview/timeline
 category_dir: overview
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: "tool/**"
 
 # Writing
 new_post_name: :year/:title.md # File name of new posts
@@ -351,6 +351,7 @@ theme_config:
         tags: /tags/ || fa fa-tags
         timeline: /timeline/ || fa fa-hourglass
       links: /links || fab fa-meetup
+      tool: /tool || fas fa-cog
       #about: /about/ || fa fa-user
       #categories: /categories/ || fa fa-th
       #archives: /archives/ || fa fa-archive
