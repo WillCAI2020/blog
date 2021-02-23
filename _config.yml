@@ -147,7 +147,7 @@ valine:
   comment_count: true # If false, comment count will only be displayed in post page, not in home page
   master: 'd123a33a5446da1642eded365a34d5de'    #博主邮箱md5
   tagMeta: ["博主","小伙伴","访客"]     #标识字段名
-  friends:  ["e89de8c6567387e83116dd3e987210af"]                        #小伙伴邮箱Md5
+  friends:  ["e89de8c6567387e83116dd3e987210af","2fa84c28b22ace21c39da4a553edf661"]                        #小伙伴邮箱Md5
   metaPlaceholder: {"nick":"昵称/QQ号（必填）","mail":"邮箱（必填，完全保密）"}
   requiredFields: [nick, mail] # Set required fields: [nick] | [nick, mail]
 
