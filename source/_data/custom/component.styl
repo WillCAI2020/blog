@@ -234,7 +234,7 @@ blockquote p,
 .DarkMode .menu-item a:hover {
   border-radius: $myradius;
   background: #382d2d; /* 移动至所显现颜色*/
-  color: aqua;
+  color: aqua !important;
 }
 
 .DarkMode .site-state-item-count,
@@ -292,7 +292,7 @@ blockquote p,
   color: rgba(0, 255, 255, 0.6);
   border-bottom: 1px solid rgba(0, 255, 255, 0.6);
   &:hover {
-    color: #fc6423;
+    color: #fc6423 !important;
     border-bottom: 1px solid #fc6423;
   }
 }
@@ -302,10 +302,9 @@ blockquote p,
   background: #282c34;
 }
 
-.DarkMode a,
 .DarkMode a.vlogin-btn {
   &:hover {
-    color: #fc6423 !important;
+    color: #fc6423;
     border-bottom-color: #fc6423 !important;
   }
 }
@@ -320,6 +319,43 @@ blockquote p,
 .DarkMode .vcol svg.markdown {
   fill: currentColor;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.DarkMode .posts-collapse .post-content .post-title a{	/* 归档 */
+	color: rgba(255, 255, 255, 0.6);
+  &:hover {
+    color: #fc6423;
+	}	
+}
+
+.DarkMode .breadcrumb a{
+	color: rgb(170,145,145,0.6);
+	border-bottom-color: rgb(170,145,145,0.6);
+}
+.DarkMode .posts-collapse .post-content .post-header,
+.DarkMode .breadcrumb a{
+  &:hover {
+    color: #fc6423 !important;
+    border-color: #fc6423 !important;
+	}
+}
+
+/* pagination-当前页码 */
+.DarkMode .pagination .page-number.current {
+  background: rgba(255, 255, 255, 0.6);
+  color: black;
+}
+
+/* pagination-页码按钮 */
+.DarkMode .pagination .prev,
+.DarkMode .pagination .next,
+.DarkMode .pagination .page-number {
+  color: rgba(255, 255, 255, 0.6);
+
+  &:hover {
+    color: black !important;
+    background: rgba(255, 255, 255, 0.6);
+  }
 }
 
 /* 深色模式 end */
