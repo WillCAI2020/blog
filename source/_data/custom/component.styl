@@ -542,10 +542,10 @@ blockquote p,
     color: #2196f3 !important;
     font-weight: 700;
   }
-  .DarkMode span.vat {
+  .DarkMode span.vat {						//回复颜色
     color: #2196f3 !important;
   }
-  .comments .vmore {
+  .comments .vmore {						//加载更多按钮
     background: #66b1ff !important;
     color: #fff !important;
     border: none !important;
@@ -554,15 +554,29 @@ blockquote p,
     background: #2880dc !important;
     border: none !important;
   }
-  .DarkMode .comments .vmore {
-    -webkit-filter: brightness(0.7) !important;
-    filter: brightness(0.7) !important;
-  }
-  .DarkMode .comments .vmore:hover {
-    -webkit-filter: brightness(0.7) !important;
-    filter: brightness(0.7) !important;
-  }
 }
+
+.DarkMode .comments .vmore,					//深色模式减小亮度
+.DarkMode .comments .vmore:hover,
+.DarkMode .v[data-class=v] .vcards .vcard .vcontent.expand,
+.v[data-class=v] pre,
+.v[data-class=v] code {
+	-webkit-filter: brightness(0.7) !important;
+	filter: brightness(0.7) !important;
+}
+
+.comments .vtag {							//标识
+	display: initial;
+    padding: 3px 4px;
+    vertical-align: 1px;
+}
+.v[data-class=v] .vsys {					//设备标识
+    color: var(--index-title-color) !important;
+}
+.DarkMode .v[data-class=v] .vsys {
+    color: #929298 !important;
+}
+
 .vinput.vpreview img,
 .vcontent img {
   width: 1.2em !important;
@@ -570,6 +584,40 @@ blockquote p,
 }
 .v[data-class="v"] .vcards .vcard .vhead .vnick {
   color: #bfb216;
+}
+
+.v[data-class=v] pre {						//代码块
+	font-size: 16px !important;
+}
+
+.v[data-class=v] code{						//代码
+	color: #ff3502;
+}
+.DarkMode .vtag.vmaster {
+  background: #9a6b25;
+  color: #d4d3d3;
+}
+.DarkMode .vtag.vfriend {
+  background: #316782;
+  color: #d4d3d3;
+}
+.DarkMode .vtag.vvisitor {
+  background: #666;
+  color: #d4d3d3;
+}
+
+svg.vicon.cancel-reply-btn {				//取消回复
+  background-color: #94c4f5;
+}
+.DarkMode svg.vicon.cancel-reply-btn {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.comments .fab {
+  font-size: inherit;
+}
+.comments .fab:before {
+  margin-right: 3px;
 }
 /****************************************/
 /*************评论 end*******************/
@@ -686,3 +734,9 @@ a.vlogin-btn,
 /****************************************/
 /*************鼠标指针 end***************/
 /****************************************/
+
+/* 加载动画文字 */
+#loader .spinner-box .loading-word {
+	text-align: center;
+	font-size: .9rem !important;
+}
