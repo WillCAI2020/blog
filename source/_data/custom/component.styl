@@ -559,8 +559,8 @@ blockquote p,
 .DarkMode .comments .vmore,					//深色模式减小亮度
 .DarkMode .comments .vmore:hover,
 .DarkMode .v[data-class=v] .vcards .vcard .vcontent.expand,
-.v[data-class=v] pre,
-.v[data-class=v] code {
+.DarkMode .v[data-class=v] pre,
+.DarkMode .v[data-class=v] code {
 	-webkit-filter: brightness(0.7) !important;
 	filter: brightness(0.7) !important;
 }
@@ -618,6 +618,18 @@ svg.vicon.cancel-reply-btn {				//取消回复
 }
 .comments .fab:before {
   margin-right: 3px;
+}
+
+img.vimg {
+     transition: all 1s   /* 旋转时间为 1s */
+}
+
+img.vimg:hover {
+     transform: rotate(360deg);
+     -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+     -o-transform: rotate(360deg);
+     -ms-transform: rotate(360deg);
 }
 /****************************************/
 /*************评论 end*******************/

@@ -138,16 +138,16 @@ valine:
   appKey: m4bAAoxs0EgrKutUB7qWtLto              # your leancloud application appkey
   notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
   verify: false # Verification code
-  placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!' # comment box placeholder
+  placeholder: '填写昵称、邮箱即可留下你的观点与想法，邮件通知新回复。' # comment box placeholder
   avatar: monsterid # gravatar style
   meta: [nick, mail, link] # Custom comment header
   pageSize: 10 # pagination size
   language: zh-cn # language, available values: en, zh-cn
   visitor: true # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
   comment_count: true # If false, comment count will only be displayed in post page, not in home page
-  master: ''    #博主邮箱md5
+  master: 'd123a33a5446da1642eded365a34d5de'    #博主邮箱md5
   tagMeta: ["博主","小伙伴","访客"]     #标识字段名
-  friends:  [""]                        #小伙伴邮箱Md5
+  friends:  ["e89de8c6567387e83116dd3e987210af"]                        #小伙伴邮箱Md5
   metaPlaceholder: {"nick":"昵称/QQ号（必填）","mail":"邮箱（必填，完全保密）"}
   requiredFields: [nick, mail] # Set required fields: [nick] | [nick, mail]
 
