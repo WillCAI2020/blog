@@ -354,8 +354,8 @@ theme_config:
         tags: /tags/ || fa fa-tags
         timeline: /timeline/ || fa fa-hourglass
       links: /links || fab fa-meetup
-      tool: /tool || fas fa-cog
       album: /album || fas fa-image
+      tool: /tool || fas fa-cog
       #about: /about/ || fa fa-user
       #categories: /categories/ || fa fa-th
       #archives: /archives/ || fa fa-archive
