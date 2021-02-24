@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>picture | ruchan</title>
+	<!--必要样式-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/WillCAI2020/CDN@1.1.8/css/picture/chromagallery.min.css">
+    <link type='text/css' rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" media='all' />
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn@1.1.6/images/tool/favicon-32x32.png">
+    <style type="text/css">
+        body,
+        html {
+            height: 100%;
+            background-color: #191919;
+        }
+
+        .content {
+            width: 100%;
+            height: 100%;
+            margin: 10px auto;
+        }
+
+        @media screen and (min-width: 980px)
+
+        /* Desktop */
+            {
+            .content {
+                width: 70%;
+            }
+        }
+
+        .mygallery {
+            margin: 25px 0;
+        }
+
+        /* note 公共样式 */
+        .note {
+            position: relative;
+            padding: 15px;
+            margin-top: 10px;
+            margin-bottom: 21px;
+            border: initial;
+            border-left: 3px solid #eee;
+            background-color: #f9f9f9;
+            border-radius: 3px;
+            font-size: var(--content-font-size);
+        }
+
+        .note:not(.no-icon):before {
+            position: absolute;
+            font-family: FontAwesome;
+            font-size: larger;
+            top: 11px;
+            left: 15px;
+        }
+
+        .note:not(.no-icon) {
+            padding-left: 45px;
+        }
+
+        .note.info {
+            background-color: #eef7fa;
+            border-left-color: #428bca;
+        }
+
+        .note.info:not(.no-icon):before {
+            content: "\f05a";
+            color: #428bca;
+        }
+
+        .note.warning {
+            background-color: #fdf8ea;
+            border-left-color: #f0ad4e;
+        }
+
+        .note.warning:not(.no-icon):before {
+            content: "\f06a";
+            color: #f0ad4e;
+        }
+
+        .note.primary {
+            background-color: #f5f0fa;
+            border-left-color: #6f42c1;
+        }
+
+        .note.primary:not(.no-icon):before {
+            content: "\f055";
+            color: #6f42c1;
+        }
+
+        .note.danger {
+            background-color: #fcf1f2;
+            border-left-color: #d9534f;
+        }
+
+        .note.danger:not(.no-icon):before {
+            content: "\f056";
+            color: #d9534f;
+        }
+    </style>
+	<style>
+		@media screen and (min-width: 980px){
+			.navbar-brand{
+				position: fixed !important;
+				display: flex !important;
+				left: 21px;
+			}
+		}
+		@media screen and (max-width: 980px){
+			.navbar-brand{
+				display: flex;
+				justify-content: center;
+			}
+		}
+		::-webkit-scrollbar {
+				width: 9px;
+				height: 9px;
+		}
+		::-webkit-scrollbar-track {
+			background: #f6f6f6;
+			border-radius: 2px;
+		}
+		::-webkit-scrollbar-thumb {	
+			background: #aaa;
+			border-radius: 2px;
+		}
+		::-webkit-scrollbar-thumb:hover {
+			background: #747474;
+		}
+		::-webkit-scrollbar-corner {
+			background: #f6f6f6;
+		}
+		.chrg-grid{
+			left: 9px !important;
+		}
+		
+	</style>	
+</head>
+
+<body>
+	<div class="navbar-brand">
+		<a href="index.html" class="logo">
+			<!--  <img src="../assets/images/logo_dark@2x.png" width="100%" alt="" class="hidden-xs">
+			<img src="../assets/images/logo@2x.png" width="100%" alt="" class="visible-xs"> -->
+			<img src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn@1.1.6/images/tool/logo-collapsed.png" width="60%">
+		</a>
+	</div>
+    <article class="jq22-container">
+
+        <div class="content">
+            <div class="chroma-gallery mygallery">
+                <div class="note primary no-icon">🍜 没有什么是一顿美食解决不了的，如果有，那就再来一顿</div>
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(8)-min.jpg" alt="蹭饭"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(8).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(9)-min.jpg" alt="烧烤聚餐"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(9).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(12)-min.jpg" alt="自助烧烤1"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(12).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(13)-min.jpg" alt="自助烧烤2"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(13).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(14)-min.jpg" alt="自助烧烤3"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(14).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(10)-min.jpg" alt="肉丸子1"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(10).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(24)-min.jpg" alt="肉丸子2"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(24).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(11)-min.jpg" alt="香喷喷牛蛙"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(11).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(22)-min.jpg" alt="初至首都1"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(22).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(23)-min.jpg" alt="初至首都2"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(23).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(26)-min.jpg" alt="广东黄焖鸡"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(26).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(27)-min.jpg" alt="机场餐食"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(27).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(7)-min.jpg" alt="初识双拼"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(7).jpg">					
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(1)-min.jpg" alt="食堂风味1"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(1).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(2)-min.jpg" alt="食堂风味2"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(2).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(3)-min.jpg" alt="食堂风味3"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(3).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(4)-min.jpg" alt="食堂风味4"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(4).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(5)-min.jpg" alt="食堂风味5"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(5).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(6)-min.jpg" alt="食堂风味6"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(6).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(7)-min.jpg" alt="食堂风味7"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(7).jpg">
+
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(15)-min.jpg" alt="食堂风味8"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(15).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(16)-min.jpg" alt="食堂风味9"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(16).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(17)-min.jpg" alt="食堂风味10"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(17).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(18)-min.jpg" alt="食堂风味11"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(18).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(19)-min.jpg" alt="食堂风味12"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(19).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(20)-min.jpg" alt="食堂风味13"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(20).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/food_compress/food%20(21)-min.jpg" alt="食堂风味14"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/food/food%20(21).jpg">		
+            </div>
+        </div>
+
+    </article>
+    <article class="jq22-container">
+        <div class="content">
+            <div class="chroma-gallery mygallery">
+                <div class="note danger no-icon">🗺️ 要么读书、要么旅行，灵魂和身体，必须有一个在路上。</div>
+                <img src="https://willcai2020.gitee.io/pictures/scenery_compress/scenery%20(1)-min.jpg" alt="丹霞险峻"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/scenery/scenery%20(1).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/scenery_compress/scenery%20(2)-min.jpg" alt="林中透阳"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/scenery/scenery%20(2).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/scenery_compress/scenery%20(3)-min.jpg" alt="广州风景"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/scenery/scenery%20(3).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/scenery_compress/scenery%20(4)-min.jpg" alt="小蛮腰"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/scenery/scenery%20(4).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/scenery_compress/scenery%20(5)-min.jpg" alt="大熊猫"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/scenery/scenery%20(5).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/scenery_compress/scenery%20(10)-min.jpg" alt="南化山林"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/scenery/scenery%20(10).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/scenery_compress/scenery%20(12)-min.jpg" alt="广州动物园1"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/scenery/scenery%20(12).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/scenery_compress/scenery%20(13)-min.jpg" alt="广州动物园2"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/scenery/scenery%20(13).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/scenery_compress/scenery%20(14)-min.jpg" alt="广州动物园3"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/scenery/scenery%20(14).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/scenery_compress/scenery%20(15)-min.jpg" alt="广州动物园4"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/scenery/scenery%20(15).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/scenery_compress/scenery%20(11)-min.jpg" alt="北京欢乐谷"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/scenery/scenery%20(11).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/scenery_compress/scenery%20(6)-min.jpg" alt="远观天安门"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/scenery/scenery%20(6).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/scenery_compress/scenery%20(7)-min.jpg" alt="高空景色"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/scenery/scenery%20(7).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/scenery_compress/scenery%20(8)-min.jpg" alt="莲花台阶"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/scenery/scenery%20(8).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/scenery_compress/scenery%20(9)-min.jpg" alt="莲花眺望"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/scenery/scenery%20(9).jpg">				
+            </div>
+        </div>
+    </article>
+    <article class="jq22-container">
+        <div class="content">
+            <div class="chroma-gallery mygallery">
+                <img src="https://willcai2020.gitee.io/pictures/campus_compress/campus%20(1)-min.jpg" alt="宁中1"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/campus/campus%20(1).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/campus_compress/campus%20(2)-min.jpg" alt="宁中2"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/campus/campus%20(2).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/campus_compress/campus%20(3)-min.jpg" alt="中大景色1"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/campus/campus%20(3).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/campus_compress/campus%20(4)-min.jpg" alt="中大景色2"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/campus/campus%20(4).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/campus_compress/campus%20(12)-min.jpg" alt="中大景色3"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/campus/campus%20(12).jpg">					
+                <img src="https://willcai2020.gitee.io/pictures/campus_compress/campus%20(5)-min.jpg" alt="中大景色3"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/campus/campus%20(5).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/campus_compress/campus%20(6)-min.jpg" alt="民大风光1"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/campus/campus%20(6).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/campus_compress/campus%20(7)-min.jpg" alt="民大风光2"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/campus/campus%20(7).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/campus_compress/campus%20(8)-min.jpg" alt="民大风光3"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/campus/campus%20(8).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/campus_compress/campus%20(9)-min.jpg" alt="民大风光4"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/campus/campus%20(9).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/campus_compress/campus%20(10)-min.jpg" alt="民大风光5"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/campus/campus%20(10).jpg">
+                <img src="https://willcai2020.gitee.io/pictures/campus_compress/campus%20(11)-min.jpg" alt="民大风光6"
+                    data-largesrc="https://willcai2020.gitee.io/pictures/campus/campus%20(11).jpg">					
+            </div>
+        </div>
+    </article>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/WillCAI2020/CDN@1.1.8/js/picture/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/WillCAI2020/CDN@1.1.8/js/picture/chromagallery.pkgd.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$(".mygallery").chromaGallery
+		({
+			color:'#000',
+			gridMargin:15,
+			maxColumns:5,
+			dof:true,
+			screenOpacity:0.8
+		});
+	});
+	</script>
+</body>
+
+</html>
