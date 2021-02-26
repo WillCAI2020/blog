@@ -264,6 +264,12 @@ waline:
     睡觉: "fangzhou/睡觉.jpg"
     洗澡: "fangzhou/洗澡.jpg"
 
+algolia:
+  applicationID: 'DOJFFJB54A'
+  apiKey: '13ebf577bb92e350333422582ae42163'
+  adminApiKey: '71f0ee50c6db4bdefaf5279ef0526497'
+  indexName: 'blog'
+  chunkSize: 5000
 
 theme_config:
     # ===============================================================
