@@ -355,6 +355,7 @@ theme_config:
         timeline: /timeline/ || fa fa-hourglass
       links: /links || fab fa-meetup
       album: /album || fas fa-image
+      talk: /talk || fas fa-comments      
       tool: /tool || fas fa-cog
       #about: /about/ || fa fa-user
       #categories: /categories/ || fa fa-th
