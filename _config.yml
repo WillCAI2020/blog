@@ -748,7 +748,7 @@ theme_config:
 
     # Bing Webmaster tools verification.
     # See: https://www.bing.com/webmasters
-    bing_site_verification:
+    bing_site_verification: 6C85A9677CAE2F9097DAED4D81A8B10E
 
     # Yandex Webmaster tools verification.
     # See: https://webmaster.yandex.ru
