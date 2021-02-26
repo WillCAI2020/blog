@@ -3,7 +3,7 @@ title: 提示：Your branch is up to date  ...
 tags: [record,git]
 categories: [编程]
 date: 2021-02-09 18:09:52
-rc: 005
+rc: 5
 ---
 
 {% cq %}解决提示：

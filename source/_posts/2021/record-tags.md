@@ -3,7 +3,7 @@ title: 记录 tags 用法
 tags: [next,hexo]
 categories: [博客]
 date: 2021-02-10 15:45:21
-rc: 007
+rc: 7
 ---
 
 {% cq %}Next主题使用的内置tag，官方都已经写好js

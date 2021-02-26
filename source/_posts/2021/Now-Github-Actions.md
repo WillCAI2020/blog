@@ -3,7 +3,7 @@ title: 实现 Github Actions 持续部署
 tags: [record,hexo]
 categories: [博客]
 date: 2021-02-09 17:31:01
-rc: 004
+rc: 4
 ---
 
 {% cq %}完整实现 Github Actions 持续部署！{% endcq %}

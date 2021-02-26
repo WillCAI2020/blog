@@ -3,7 +3,7 @@ title: 利用 bash 脚本提高效率-git push
 tags: [record,git,bat]
 categories: [编程]
 date: 2021-02-09 18:26:02
-rc: 006
+rc: 6
 ---
 
 {% cq %}每次提交都要输重复命令

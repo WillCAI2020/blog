@@ -3,7 +3,7 @@ title: 记录探索 Github Actions
 tags: [record,hexo]
 categories: [博客]
 date: 2021-02-09 15:57:27
-rc: 003
+rc: 3
 top: 999
 ---
 

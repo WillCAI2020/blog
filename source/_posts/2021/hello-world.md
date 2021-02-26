@@ -1,6 +1,6 @@
 ---
 title: Hello World
-rc: 001
+rc: 1
 categories: [博客]
 tags: [record]
 top: 1000

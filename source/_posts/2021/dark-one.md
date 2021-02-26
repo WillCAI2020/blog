@@ -4,7 +4,7 @@ top: false
 tags: [hexo,next]
 categories: [博客]
 date: 2021-02-17 22:51:44
-rc: 010
+rc: 10
 keywords: 深色主题,hexo,next
 ---
 

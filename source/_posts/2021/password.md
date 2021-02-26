@@ -4,7 +4,7 @@ top: false
 tags: [next,hexo]
 categories: [博客]
 date: 2021-02-10 17:37:57
-rc: 008
+rc: 8
 keywords: next,password
 password: 2021
 theme: up
