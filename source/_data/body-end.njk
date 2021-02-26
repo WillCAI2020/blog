@@ -344,13 +344,11 @@ ul.list-v.rightmenu a.vlts-menu {
   border-bottom: none !important;
   font-size: .9rem;
 }
-ul.list-v.rightmenu li.navigation,
-ul.list-v.rightmenu li.music {
+ul.list-v.rightmenu li.navigation{
   display: flex;
   justify-content: space-between;
 }
-ul.list-v.rightmenu li.navigation a.icon-only,
-ul.list-v.rightmenu li.music a.icon-only {
+ul.list-v.rightmenu li.navigation a.icon-only{
   line-height: 0;
   margin: 0;
   padding: 0;
@@ -359,89 +357,18 @@ ul.list-v.rightmenu li.music a.icon-only {
   height: 32px;
   border-bottom: none;
 }
-ul.list-v.rightmenu li.navigation a.nav i,
-ul.list-v.rightmenu li.music a.nav i {
+ul.list-v.rightmenu li.navigation a.nav i{
   margin: 0;
   width: 32px;
   line-height: 32px;
 }
-ul.list-v.rightmenu li.navigation a.nav:first-child,
-ul.list-v.rightmenu li.music a.nav:first-child {
+ul.list-v.rightmenu li.navigation a.nav:first-child{
   margin-left: 10px;
 }
-ul.list-v.rightmenu li.navigation a.nav:last-child,
-ul.list-v.rightmenu li.music a.nav:last-child {
+ul.list-v.rightmenu li.navigation a.nav:last-child{
   margin-right: 10px;
 }
-ul.list-v.rightmenu li.music.name {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-ul.list-v.rightmenu li.music.name p.nav.music-title {
-  color: #696969;
-  font-size: 0.875rem;
-  max-width: 128px;
-  margin: 0 20px;
-  overflow: hidden;
-}
-ul.list-v.rightmenu li.music.name p.nav.music-title:hover {
-  background: none;
-}
-ul.list-v.rightmenu li.music a.nav.volume {
-  width: 100%;
-  padding: 0 8px;
-  border-bottom: none;
-}
-ul.list-v.rightmenu li.music a.nav.volume:hover {
-  background: transparent;
-}
-ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar {
-  margin: 4px 0 8px;
-  position: relative;
-  height: 8px;
-  width: 100%;
-  background: #ededed;
-  border-radius: 32px;
-  overflow: hidden;
-  cursor: pointer;
-  transition: all 0.28s ease;
-  -moz-transition: all 0.28s ease;
-  -webkit-transition: all 0.28s ease;
-  -o-transition: all 0.28s ease;
-}
-ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar i.left,
-ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar i.right {
-  color: #696969;
-  position: absolute;
-  top: 0;
-  width: 28px;
-  line-height: 28px;
-  transition: all 0.28s ease;
-  -moz-transition: all 0.28s ease;
-  -webkit-transition: all 0.28s ease;
-  -o-transition: all 0.28s ease;
-  opacity: 0;
-  transform: scale(0.5) translateY(-18px);
-}
-ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar i.left {
-  left: 0;
-}
-ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar i.right {
-  right: 0;
-}
-ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar:hover {
-  height: 28px;
-}
-ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar:hover i {
-  opacity: 1;
-  transform: scale(1) translateY(0);
-}
-ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar .aplayer-volume {
-  background: #44d7b6;
-  height: 100%;
-  width: 100%;
-}
+
 ul.list-v.rightmenu {
 	list-style: none;
 }
@@ -494,8 +421,8 @@ li.list:hover{
 		<hr>
 
         <li class='list'>
-            <a class='vlts-menu fix-cursor-default' href=https://i.w4j1e.xyz target="_blank"
-                id="https:iw4j1exyz">
+            <a class='vlts-menu fix-cursor-default' href=https://crcrc.cn/ target="_blank"
+                id="https:crcrc">
                 <i class='fas fa-fan fa-spin fa-fw'></i>&emsp;个人主页
             </a>
         </li>
@@ -505,7 +432,7 @@ li.list:hover{
 
 
         <li class='list'>
-            <a class='vlts-menu fix-cursor-default' href=https://github.com/W4J1e id="https:githubcomW4J1e">
+            <a class='vlts-menu fix-cursor-default' href=https://github.com/WillCAI2020 target="_blank" id="https:githubcomwillcai2020">
                 <i class='fab fa-github fa-fw'></i>&emsp;Github
             </a>
         </li>
@@ -515,8 +442,8 @@ li.list:hover{
 
 
         <li class='list'>
-            <a class='vlts-menu fix-cursor-default' href=https://crcrc.cn/ id="cyyhtml">
-                <i class='fa fa-music fa-fw'></i>&emsp;我的歌单
+            <a class='vlts-menu fix-cursor-default' href=/album id="cyyhtml">
+                <i class='fas fa-image fa-fw'></i>&emsp;我的相册
             </a>
         </li>
 
@@ -529,37 +456,6 @@ li.list:hover{
                 <i class='fa fa-print fa-fw'></i>&emsp;打印页面
             </a>
         </li>
-
-
-
-
-        <hr>
-
-
-
-        <li class='music name'>
-            <p class='nav music-title fix-cursor-default'></p>
-        </li>
-        <li class='music ctrl'>
-            <a class='nav icon-only backward fix-cursor-default' onclick='aplayerBackward()'><i
-                    class='fa fa-step-backward fa-fw'></i></a>
-            <a class='nav icon-only toggle fix-cursor-default' onclick='aplayerToggle()'><i
-                    class='fa fa-play fa-fw'></i></a>
-            <a class='nav icon-only forward fix-cursor-default' onclick='aplayerForward()'><i
-                    class='fa fa-step-forward fa-fw'></i></a>
-        </li>
-        <li class='music volume'>
-            <a class='nav volume'>
-                <div class="aplayer-volume-bar-wrap">
-                    <div class="aplayer-volume-bar fix-cursor-pointer">
-                        <div class="aplayer-volume"></div>
-                        <i class='left fa fa-volume-off fa-fw'></i>
-                        <i class='right fa fa-volume-up fa-fw'></i>
-                    </div>
-                </div>
-            </a>
-        </li>
-
 
     </ul>
 </div>
