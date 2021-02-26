@@ -92,7 +92,7 @@ canvas#canvas {
 }
 
 /* 美化 hr 样式 */
-hr {
+.post-block hr {
     position: relative;
     margin: 2rem auto;
     width: calc(100% - 4px);
@@ -100,13 +100,13 @@ hr {
     background: #fff;
 }
 
-hr {
+.post-block hr {
     box-sizing: content-box;
     height: 0;
     overflow: visible;
 }
 
-hr:before {
+.post-block hr:before {
     position: absolute;
     top: -10px;
     left: 5%;
@@ -122,7 +122,7 @@ hr:before {
     transition: all 1s ease-in-out;
 }
 
-hr:hover::before {
+.post-block hr:hover::before {
     left: 95%;
 }
 
