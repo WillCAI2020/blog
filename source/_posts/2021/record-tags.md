@@ -260,14 +260,14 @@ C -->|Three| F[Car]
     ```
 
 
-    <div align="center">
-    {% label default@default %}
-    {% label primary@primary %}
-    {% label success@success %}
-    {% label info@info %}
-    {% label warning@warning %}
-    {% label danger@danger %}
-    </div>
+<div align="center">
+{% label default@default %}
+{% label primary@primary %}
+{% label success@success %}
+{% label info@info %}
+{% label warning@warning %}
+{% label danger@danger %}
+</div>
 
 6. ### [button && btn](https://theme-next.js.org/docs/tag-plugins/button.html)
 
