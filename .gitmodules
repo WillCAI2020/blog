@@ -4,6 +4,3 @@
 [submodule "source/lib/canvas_ribbon"]
 	path = source/lib/canvas_ribbon
 	url = https://github.com/theme-next/theme-next-canvas-ribbon
-[submodule "source/lib/live2d-widget"]
-	path = source/lib/live2d-widget
-	url = https://github.com/stevenjoezhang/live2d-widget.git
