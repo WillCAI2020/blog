@@ -122,14 +122,12 @@ blockquote p,
 }
 #RightDownBtn {
   position: fixed;
-  left: 16px;
-  bottom: 32px;
   padding: 0.3125rem 0.5rem;
   background: #fff;
   border-radius: 0.1875rem;
   box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.4);
   transition: 0.3s ease all;
-  z-index: 100;
+  z-index: 80;
   align-items: flex-end;
   flex-direction: column;
   display: -moz-flex;
@@ -138,6 +136,10 @@ blockquote p,
   + mobile() {
 	right: 9px !important;
 	bottom: 9px !important;
+	}
+  + tablet-desktop() {
+	left: 16px;
+	bottom: 90px;
 	}
 }
 /* 组件部分 end */
@@ -488,7 +490,7 @@ blockquote p,
 /****************************************/
 /* gitter置于最上层 */
 .gitter-chat-embed {
-  z-index: 10000;
+  z-index: 100;
 }
 
 + mobile() {
@@ -954,14 +956,6 @@ a.nav.icon-only:hover,
 li.list:hover{
 	background: #d5d0d0 !important;
 	border-radius: 16px;
-}
-.aplayer-container{
-	display: none !important;
-}
-#musicmobbtn{
-  +tablet-desktop() {
-    display: none !important;
-  }
 }
 /****************************************/
 /*************右键菜单 end***************/
