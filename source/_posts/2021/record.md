@@ -166,4 +166,6 @@ git submodule add --depth 1 https://github.com/stevenjoezhang/live2d-widget.git 
 
 试验pangu，此行中英文间未加空格。
 
+ipconfig /flushdns
+
 来tryagain，这是pangu，能给文章中English添加space。
