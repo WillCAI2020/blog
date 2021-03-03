@@ -953,7 +953,7 @@ theme_config:
 
     # Baidu Analytics
     # See: https://tongji.baidu.com
-    baidu_analytics: # <app_id>
+    baidu_analytics: a1d95bbe06c4da1f17d3238650f2dec5 # <app_id>
 
     # Growingio Analytics
     # See: https://www.growingio.com
