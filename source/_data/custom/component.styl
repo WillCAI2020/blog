@@ -9,11 +9,13 @@
 }
 */
 /* post-引用与 note 字体 */
-blockquote p,
-.post-body .note {
+blockquote p{
   font-family: $font-family-quote;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1em;
+  + mobile() {
+	font-size: 0.9em;
+	}
 }
 
 /* post-标签选择卡片加粗 */

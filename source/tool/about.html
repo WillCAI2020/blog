@@ -83,7 +83,20 @@
 		#loader .spinner-box .loading-word {
 			text-align: center;
 			font-size: .9rem !important;
+		}
+		#logo{
+			width: 50%;
+		}
+		@media screen and (max-width: 960px){
+			#logo{
+				align: center;
+				width: 30%;
+			}
 		}		
+		img#chart{
+			max-width:100%;
+			max-height: 100%;
+		}
 	</style>
     <nav class="navbar horizontal-menu navbar-fixed-top">
         <div class="navbar-inner">
@@ -91,11 +104,11 @@
                 <a href="index.html" class="logo">
                     <!--  <img src="../assets/images/logo_dark@2x.png" width="100%" alt="" class="hidden-xs">
                     <img src="../assets/images/logo@2x.png" width="100%" alt="" class="visible-xs"> -->
-                    <img src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn@1.1.6/images/tool/logo-collapsed.png" width="60%">
+                    <img src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn@1.1.6/images/tool/logo-collapsed.png" id="logo">
                 </a>
             </div>
             <div class="navbar-mobile-clear"></div>
-            <!--   <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a> -->
+            <!-- <a href="https://github.com/WillCAI2020/blog" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a> -->
         </div>
     </nav>
     <div class="page-container">
@@ -188,10 +201,12 @@
 												<p align="center">
                                                     Just go.<br />
                                                     干就完了
-												</p>							
-                                                <p>
-													<img src="https://ghchart.rshah.org/409ba5/willcai2020" alt="ruchan's Github chart" /></br>
-                                                </p>
+												</p>					
+                                                
+												<p>
+													<img id="chart" src="https://ghchart.rshah.org/409ba5/willcai2020" alt="ruchan's Github chart" /></br>
+												</p>
+                                                
                                             </blockquote>
                                         </div>
                                     </div>
