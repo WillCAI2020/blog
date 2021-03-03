@@ -109,7 +109,7 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'GooglePush'
   
 #字数统计
 symbols_count_time:
@@ -270,6 +270,21 @@ algolia:
   adminApiKey: '71f0ee50c6db4bdefaf5279ef0526497'
   indexName: 'blog'
   chunkSize: 5000
+
+# enable: 开启/关闭 推送
+# count: 每次提交最新的10篇文章
+# https://github.com/lete114/hexo-seo-autopush
+hexo_seo_autopush:
+  baidu:
+    enable: true
+    count: 100
+  bing:
+    enable: true
+    count: 10
+  google:
+    enable: true
+    count: 10
+    google_file: google_service_account.json # 谷歌服务账户
 
 theme_config:
     # ===============================================================

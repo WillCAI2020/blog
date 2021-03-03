@@ -28,6 +28,7 @@ jobs:
         npm i -g gulp
         npm i
         gulp
+        hexo d
     - name: Deploy to Github Pages
       env:
         GIT_NAME: WillCAI2020
