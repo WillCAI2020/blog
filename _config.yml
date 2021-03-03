@@ -715,7 +715,7 @@ theme_config:
       enable: true
 
       # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
-      host: https://fonts.loli.net
+      host: https://fonts.geekzu.org
 
       # Font options:
       # `external: true` will load this font family from `host` above.
@@ -961,7 +961,7 @@ theme_config:
     # Google Analytics
     # See: https://analytics.google.com
     google_analytics:
-      tracking_id: UA-189366922-1
+      tracking_id:
       # By default, NexT will load an external gtag.js script on your site.
       # If you only need the pageview feature, set the following option to true to get a better performance.
       only_pageview: false
