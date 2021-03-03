@@ -725,7 +725,7 @@ theme_config:
       # Global font settings used for all elements inside <body>.
       global:
         external: true
-        family: Acme, Noto Serif SC
+        family: Acme, Noto Serif SC, ZCOOL XiaoWei
         size:
 
       # Font settings for site title (.site-title).
@@ -737,7 +737,7 @@ theme_config:
       # Font settings for headlines (<h1> to <h6>).
       headings:
         external: true
-        family:
+        family: EB Garamond, Ma Shan Zheng
         size: 1.48
 
       # Font settings for posts (.post-body).
