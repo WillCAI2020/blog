@@ -506,3 +506,38 @@
     }
     document.execCommand('click');
 </script>
+
+
+<div id="tp-weather-widget"></div>
+<script>
+    !function(e, t, n, a, o, i, c, r) {
+        r = function() {
+            i = t.createElement(n),
+            c = t.getElementsByTagName(n)[0],
+            i.src = o,
+            i.charset = "utf-8",
+            i.async = 1,
+            c.parentNode.insertBefore(i, c)
+        }
+        ,
+        e.SeniverseWeatherWidgetObject = a,
+        e[a] || (e[a] = function() {
+            (e[a].q = e[a].q || []).push(arguments)
+        }
+        ),
+        e[a].l = +new Date,
+        e.attachEvent ? e.attachEvent("onload", r) : e.addEventListener("load", r, !1)
+    }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt(((new Date).getTime() / 1e8).toString(), 10)),
+    window.SeniverseWeatherWidget("show", {
+        flavor: "bubble",
+        location: "WX4FBXXFKE4F",
+        geolocation: !0,
+        language: "zh-Hans",
+        unit: "c",
+        theme: "auto",
+        token: "827a4ca8-cb3b-4b3b-9083-772d5f790e94",
+        hover: "enabled",
+        container: "tp-weather-widget"
+    })
+</script>
+</div>
