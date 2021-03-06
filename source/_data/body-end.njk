@@ -1,4 +1,4 @@
-{# 鼠标点击特效 #}
+{# 鼠标点击特效 begin #}
 {% if theme.cursor_effect == "fireworks" %}
   <script async src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/js/cursor/fireworks.js"></script>
 {% elseif theme.cursor_effect == "explosion" %}
@@ -10,8 +10,9 @@
 {% elseif theme.cursor_effect == "text" %}
   <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/js/cursor/text.js"></script>
 {% endif %}
+{# 鼠标点击特效 end #}
 
-{# 打字特效 #}
+{# 打字特效 begin #}
 {% if theme.typing_effect %}
   <script src="/js/activate-power-mode.min.js"></script>
   <script>
@@ -20,13 +21,16 @@
     document.body.addEventListener('input', POWERMODE);
   </script>
 {% endif %}
+{# 打字特效 end #}
 
-{# 标签页设置 #}
+{# 标签页设置 begin #}
 {% if page.type === 'tags' %}
   <script src="/js/tags.js"></script>
 {% else %}
 {% endif %}
+{# 标签页设置 end #}
 
+{# 更新提示 begin #}
 <div class="app-refresh" id="app-refresh">
     <div class="app-refresh-wrap" onclick="location.reload()">
         <label>已更新最新版本</label>
@@ -51,35 +55,42 @@
         document.getElementById('app-refresh').className += ' app-refresh-show';
     }
 </script>
+{# 更新提示 end #}
 
+{# ribbon_flow begin #}
 {%- if theme.ribbon_flow.enable %}
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/js/ribbon_flow.js"></script>
 {%- endif %}
+{# ribbon_flow end #}
 
-<!--使用 Gitter 实现一个 IM 即时通讯聊天室功能-->
+{# Gitter聊天界面 begin #}
 <script>
   ((window.gitter = {}).chat = {}).options = {
     room: 'ruchan666/community'
   };
 </script>
 <script src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn@1.2.4/js/sidecar.js" async defer></script>
+{# Gitter聊天界面 end #}
 
-
-{# 简易的Lazyload #}
+{# 简易的Lazyload begin #}
 <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
-
-{# 友链设置 #}
-{% if page.type === 'links' %}
-  <script src="/js/links.js"></script>
-{% else %}
-
-{% endif %}
-
 <script>
 	$("img.lazyload").lazyload();
 </script>
+{# 简易的Lazyload end #}
 
-{# 添加小组件 #}
+
+{# 友链页面 begin #}
+{% if page.type === 'links' %}
+  <script src="/js/links.js"></script>		<!--图片采用懒加载方式-->
+{% else %}
+{% endif %}
+{# 友链页面 end #}
+
+
+
+
+{# 悬浮组件 begin #}
 <div id="RightDownBtn">
     <a id="btn" href="javascript:void(0)" target="_self" style="" title="回到顶部">
         <svg style=" width: 1.5em;height: 1.5em;" class="icon" aria-hidden="true">
@@ -277,9 +288,9 @@
 		checkNightMode();
 	</script>
 </div>
+{# 悬浮组件 end #}
 
-
-
+{# 全局音乐播放器 begin #}
 <link type='text/css' rel="stylesheet" href="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn@1.2.1/music/APlayer.min.css" media='all'/>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn@1.2.1/music/APlayer.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/w4j1e/blog@master/js/Meting.min.js"></script>
@@ -295,8 +306,9 @@
         list-max-height='340px' server='netease' type='playlist' id='6637525694' list-folded='true'>
     </meting-js>
 </div>
+{# 全局音乐播放器 end #}
 
-
+{# 鼠标右键 begin #}
 <div id="rightmenu-wrapper">
     <ul class="list-v rightmenu" id="rightmenu-content">
         <li class='option'>
@@ -506,8 +518,9 @@
     }
     document.execCommand('click');
 </script>
+{# 鼠标右键 end #}
 
-
+{# 心知天气组件 begin #}
 <div id="tp-weather-widget"></div>
 <script>
     !function(e, t, n, a, o, i, c, r) {
@@ -541,3 +554,4 @@
     })
 </script>
 </div>
+{# 心知天气组件 end #}
