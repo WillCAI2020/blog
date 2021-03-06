@@ -24,5 +24,7 @@ zh-CN:
       other: "目前共计 %d 篇日志，"
   cheers:
     um: 嗯...
-  keep_on: 还要继续努力喔！      
+  keep_on: 还要继续努力喔！
+  search:
+    placeholder: 快来找找你想要的内容吧！
    
