@@ -2,7 +2,11 @@
 title: 留言墙
 type: "talk"
 ---
-
+<script>
+	setTimeout(function() {
+	  $.hulla.send("Hi！这里是留言墙😄<hr>欢迎提出您的想法！", "info");
+	}, 1000);
+</script>
 
 <style>
 .poem-wrap {

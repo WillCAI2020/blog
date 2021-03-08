@@ -87,8 +87,32 @@
 {% endif %}
 {# 友链页面 end #}
 
+{# 全局音乐播放器 begin #}
+<link type='text/css' rel="stylesheet" href="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn@1.2.1/music/APlayer.min.css" media='all'/>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn@1.2.1/music/APlayer.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/w4j1e/blog@master/js/Meting.min.js"></script>
+
+<script>
+    let APlayerController = new Object();
+    APlayerController.id = '6637525694';  // 设定全局音乐播放ID
+    APlayerController.volume = '0.7';
+</script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn@1.2.4/music/aplayer.min.js"></script>
+<div class="aplayer-container">
+    <meting-js theme='#1BCDFC' autoplay='false' volume='0.7' loop='all' order='list' fixed='true'
+        list-max-height='340px' server='netease' type='playlist' id='6637525694' list-folded='true'>
+    </meting-js>
+</div>
+{# 全局音乐播放器 end #}
+
+{# 提示组件 begin #}
+<script src="/js/hullabaloo.js"></script>
+<script type="text/javascript">
+	$.hulla = new hullabaloo();
 
 
+</script>
+{# 提示组件 end #}
 
 {# 悬浮组件 begin #}
 <div id="RightDownBtn">
@@ -224,7 +248,11 @@
 				? ($("html").addClass("DarkMode"),
 				  (document.cookie = "DarkMode=1;path=/"),
 				  console.log("夜间模式开启"),
-				  $("#modeicon").attr("xlink:href", "#icon-sun"))
+				  $("#modeicon").attr("xlink:href", "#icon-sun"),
+				  $.hulla = new hullabaloo(),
+			      setTimeout(function() {
+			        $.hulla.send('已为您开启深色模式，祝浏览愉快！', 'dark');
+			      }, 0))
 				: ($("html").removeClass("DarkMode"),
 				  (document.cookie = "DarkMode=0;path=/"),
 				  console.log("夜间模式关闭"),
@@ -263,6 +291,9 @@
 			  document.cookie = "DarkMode=1;path=/";
 			  console.log("夜间模式开启");
 			  $("#modeicon").attr("xlink:href", "#icon-sun");
+			  setTimeout(function() {
+			    $.hulla.send('夜深了，已为您自动开启深色模式！😁', 'dark');
+			  }, 1000);		  
 			} else {
 			  $("html").removeClass("DarkMode");
 			  document.cookie = "DarkMode=0;path=/";
@@ -290,23 +321,7 @@
 </div>
 {# 悬浮组件 end #}
 
-{# 全局音乐播放器 begin #}
-<link type='text/css' rel="stylesheet" href="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn@1.2.1/music/APlayer.min.css" media='all'/>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn@1.2.1/music/APlayer.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/w4j1e/blog@master/js/Meting.min.js"></script>
 
-<script>
-    let APlayerController = new Object();
-    APlayerController.id = '6637525694';  // 设定全局音乐播放ID
-    APlayerController.volume = '0.7';
-</script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn@1.2.4/music/aplayer.min.js"></script>
-<div class="aplayer-container">
-    <meting-js theme='#1BCDFC' autoplay='false' volume='0.7' loop='all' order='list' fixed='true'
-        list-max-height='340px' server='netease' type='playlist' id='6637525694' list-folded='true'>
-    </meting-js>
-</div>
-{# 全局音乐播放器 end #}
 
 {# 鼠标右键 begin #}
 <div id="rightmenu-wrapper">
