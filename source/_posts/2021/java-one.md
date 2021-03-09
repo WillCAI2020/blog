@@ -429,5 +429,7 @@ int number = r.nextInt(10);
 
 {% note info no-icon%}
 导包：ctrl+Enter
+快捷创建标准类：alt+Insert
+调用成员方法时，先写方法，再用 ctrl+alt+v，会自动给出返回类型与变量名
 {% endnote %}
 
