@@ -99,7 +99,7 @@ top: 999
     这个直接添加 Secrets，内容为账号绑定的邮箱。其实这也没必要添加，直接 env 中写明`GIT_EMAIL: 账号邮箱`。
 5. ### 最终版
 
-    详情见此文。
+    详情见[此文](https://crcrc.cn/4/)。
 
 ## 方法二
 1. ### 概述
@@ -224,8 +224,12 @@ top: 999
 
     突然发现 Github Actions 报错了，原因是 `failed to initialize alpm library`，于是去查询解决方法，普遍答复为以 root 权限运行 `pacman-db-upgrade`即可（是因为 yaourt 更新 pacman 以后，没更新 pacman 资料库的关系），于是我在 Dockerfile 中加上该命令，却报错 `You must have correct permissions to upgrade the database`，我觉得是没有 root 权限，于是找寻如何切换 root 权限，最终不了了之。
 
-    阅览以下文章：
+    几天后查看 reuixiy 的[ hugo-deploy](https://github.com/reuixiy/hugo-deploy)源码，发现解决方法为将 Dockerfile 中的`FROM archlinux` 修改为 `FROM archlinux/archlinux:base-20210203.0.15035`。
 
+    Emm，最终还是选择使用方法一🙃。
+    
+    阅览以下文章：
+    
     * [failed to initialize alpm library](https://blog.elleryq.idv.tw/2014/12/failed-to-initialize-alpm-library.html)
     * [Docker 运行时的用户与组管理](https://segmentfault.com/a/1190000016781704)
     * [如何获得docker容器里面的root权限](https://blog.csdn.net/u012763794/article/details/80943472)
