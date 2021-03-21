@@ -581,8 +581,8 @@ theme_config:
 
     # Related popular posts
     # Dependencies: https://github.com/tea3/hexo-related-popular-posts
-    related_posts:
-      enable: false
+    related_posts_new:
+      enable: true
       title: # Custom header, leave empty to use the default one
       display_in_home: false
       params:
