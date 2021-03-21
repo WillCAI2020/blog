@@ -2,9 +2,8 @@
 title: 记录 tags 用法
 tags: [next,hexo]
 categories: [博客]
-update: '2021-03-21 18:10:00'
 date: 2021-02-10 15:45:21
-update: 2021-03-2 16:49:00
+update: 2021-03-21 18:10:00
 rc: 7
 ---
 
