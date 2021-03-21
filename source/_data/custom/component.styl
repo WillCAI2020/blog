@@ -118,6 +118,7 @@ blockquote p{
   border-bottom: none !important;
 }
 #RightDownBtn svg.icon,
+#RightDownBtn svg.chat,
 #RightDownBtn svg#music,
 #RightDownBtn a {
   width: 21px !important;
@@ -505,7 +506,7 @@ blockquote p{
 }
 
 + mobile() {
-  iframe {
+  .gitter-chat-embed iframe {
     position: fixed;
     top: 16px;
     height: 98% !important;
@@ -516,6 +517,9 @@ blockquote p{
 }
 .gitter-chat-embed-action-bar-item-pop-out{
 	margin: 9px;
+}
+#RightDownBtn svg.chat{
+	margin-top: 2px;
 }
 /****************************************/
 /*************gitter组件 end*************/
