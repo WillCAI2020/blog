@@ -2,6 +2,7 @@
 title: 记录 tags 用法
 tags: [next,hexo]
 categories: [博客]
+update: '2021-03-21 18:10:00'
 date: 2021-02-10 15:45:21
 update: 2021-03-2 16:49:00
 rc: 7
@@ -137,6 +138,23 @@ Welcome to [Hexo!](https://hexo.io)
 {% note warning %}
 ##### Warning Header
 **Welcome** to [Hexo!](https://hexo.io)
+{% endnote %}
+
+利用 Note 标签还可实现代码块的折叠，用法如下：
+
+~~~nginx
+{% note info no-icon 点击显 / 隐代码 %}
+```
+这是代码块
+```
+{% endnote %}
+~~~
+
+{% note info no-icon 点击显 / 隐代码 %}
+
+```
+这是代码块
+```
 {% endnote %}
 
 ### [Tabs](https://theme-next.js.org/docs/tag-plugins/tabs.html)
