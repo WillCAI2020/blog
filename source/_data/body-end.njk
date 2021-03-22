@@ -109,6 +109,27 @@
 <script src="https://cdn.jsdelivr.net/gh/WillCAI2020/cdn@1.3.1/js/hullabaloo.min.js"></script>
 <script type="text/javascript">
 	$.hulla = new hullabaloo();
+	if (new Date().getHours() >= 7 && new Date().getHours() < 12) {
+		setTimeout(function() {
+		  $.hulla.send('早上好🥛<hr>今天又是活力满满的一天！', 'info');
+		}, 1000);		  
+	  } else if (new Date().getHours() >= 12 && new Date().getHours() < 13) {
+		setTimeout(function() {
+		  $.hulla.send('中午好🍚<hr>记得吃饭喔！', 'info');
+		}, 1000);				
+	  } else if (new Date().getHours() >= 13 && new Date().getHours() < 18) {
+		setTimeout(function() {
+		  $.hulla.send('下午好📚<hr>午睡一会精神更佳喔！', 'info');
+		}, 1000);				
+	  } else if (new Date().getHours() >= 18 && new Date().getHours() < 23) {
+		setTimeout(function() {
+		  $.hulla.send('晚上好🌙<hr>记得早点休息呀🛏', 'dark');
+		}, 1000);
+	  } else {
+		setTimeout(function() {
+		  $.hulla.send('已经深夜了🌕快去睡觉吧💤', 'dark');
+		}, 1000);
+	  }
 </script>
 {# 提示组件 end #}
 
