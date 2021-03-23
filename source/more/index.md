@@ -26,7 +26,7 @@ comments: false
   }
 
   .content {
-    font-size: 1.25em;
+    font-size: 1.15em;
     text-align: center;
     padding-bottom: 20px;
     top: auto;
