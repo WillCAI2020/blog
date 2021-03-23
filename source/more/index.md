@@ -30,7 +30,7 @@ comments: false
     text-align: center;
     padding-bottom: 20px;
     top: auto;
-    padding: 1.25rem;
+    padding: 1.2rem;
     background: linear-gradient(to right, #f1f1f1, #45ed63);
     -webkit-background-clip: text;
     color: transparent;
