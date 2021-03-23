@@ -7,6 +7,8 @@ zh-CN:
     tool: 工具
     album: 相册
     talk: 留言
+    more: 更多
+    bb: 说说
   state:
     posts: 文章
   counter:

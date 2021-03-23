@@ -30,9 +30,9 @@ category_dir: overview
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-  - "tool/**"
-  - "album/photo.html"
-  - "album/picture.html"
+  - "more/tool/**"
+  - "more/album/photo.html"
+  - "more/album/picture.html"
 
 # Writing
 new_post_name: :year/:title.md # File name of new posts
@@ -292,7 +292,7 @@ bb:
  appKey: ld2GqVkr2zhOKebcHfA6BAf5
  serverURLs: https://mws8xxss.api.lncldglobal.com/
  limit: 10 #显示条数
- path: bb #路径名称 例如：https://你的域名/bb
+ path: /more/bb #路径名称 例如：https://你的域名/bb
  content: '👉🏼这是我的说说，随便记记。📑' #显示在哔哔上方,如不需要注释即可
 
 theme_config:
@@ -383,10 +383,13 @@ theme_config:
         default: /overview/ || fa fa-book
         tags: /tags/ || fa fa-tags
         timeline: /timeline/ || fa fa-hourglass
-      links: /links || fab fa-meetup
-      album: /album || fas fa-image
-      talk: /talk || fas fa-comments      
-      tool: /tool || fas fa-cog
+      links: /links || fab fa-meetup     
+      talk: /talk || fas fa-comments
+      more:
+        default: /more/ || fa fa-align-center
+        album: /album || fas fa-image
+        bb: /bb/ || fa fa-commenting
+        tool: /tool || fas fa-cog    
       #about: /about/ || fa fa-user
       #categories: /categories/ || fa fa-th
       #archives: /archives/ || fa fa-archive
