@@ -226,7 +226,10 @@ blockquote p{
 .DarkMode  .vcontent h1,
 .DarkMode  .vcontent h2,
 .DarkMode  .vcontent h3,
-.DarkMode  .vcontent ol {
+.DarkMode  .vcontent ol,
+.DarkMode  #twikoo
+.DarkMode  .tk-actions a
+.DarkMode  .tk-nick{
   /* live2d 文字颜色 */
   color: rgba(255, 255, 255, 0.6) !important;
 }
@@ -359,6 +362,25 @@ blockquote p{
     border-color: #fc6423 !important;
 	}
 }
+
+.DarkMode .tk-action-icon.__markdown:hover{
+  &:hover {
+    border-bottom-color: #fc6423 !important;
+  }
+}
+.DarkMode  .tk-actions a{
+  &:hover {
+    color: #fc6423 !important;
+    border-bottom-color: #fc6423 !important;
+  }
+}
+.DarkMode .tk-main a{
+	color: #4169E1;
+  &:hover {
+    color: #fc6423 !important;
+    border-bottom-color: #fc6423 !important;
+  }
+}	
 
 /* pagination-当前页码 */
 .DarkMode .pagination .page-number.current {
