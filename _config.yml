@@ -286,15 +286,6 @@ hexo_seo_autopush:
     count: 10
     google_file: google_service_account.json # 谷歌服务账户
 
-bb:
- title: 说说  #页面title
- appId: mwS8XXsSNROonn2qo3vzN4Oj-MdYXbMMI
- appKey: ld2GqVkr2zhOKebcHfA6BAf5
- serverURLs: https://mws8xxss.api.lncldglobal.com/
- limit: 10 #显示条数
- path: /more/bb #路径名称 例如：https://你的域名/bb
- content: '👉🏼这是我的说说，随便记记。📑' #显示在哔哔上方,如不需要注释即可
-
 theme_config:
     # ===============================================================
     # It's recommended to use Alternate Theme Config to configure NexT
@@ -388,8 +379,7 @@ theme_config:
       more:
         default: /more/ || fa fa-align-center
         album: /album || fas fa-image
-        bb: /bb/ || fa fa-commenting
-        tool: /tool || fas fa-cog    
+        tool: /tool || fas fa-cog 
       #about: /about/ || fa fa-user
       #categories: /categories/ || fa fa-th
       #archives: /archives/ || fa fa-archive
