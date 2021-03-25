@@ -136,7 +136,7 @@ sitemap:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: true
+  enable: false
   appId:  vjbVPwGrkwLPibCYNK7SVe6A-MdYXbMMI     # your leancloud application appid
   appKey: 0MXeP7SG7yS5j4fmwTJra4nd              # your leancloud application appkey
   notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
@@ -263,6 +263,15 @@ waline:
     喝奶茶: "QQ/喝奶茶.png"
     睡觉: "fangzhou/睡觉.jpg"
     洗澡: "fangzhou/洗澡.jpg"
+
+# Twikoo
+# For more information: https://twikoo.js.org, https://github.com/imaegoo/twikoo
+twikoo:
+  enable: true
+  visitor: true
+  envId: blog-9gjzfpqk23adf58c # 环境 ID，搭建教程：https://twikoo.js.org/quick-start.html
+  # region: ap-guangzhou # 环境地域，默认为 ap-shanghai
+  path: 'window.location.pathname' # 自定义文章路径
 
 algolia:
   applicationID: 'DOJFFJB54A'
