@@ -137,8 +137,8 @@ sitemap:
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
   enable: true
-  appId:  g3bxnCFl2ipLWY1xwfxwmQGn-MdYXbMMI     # your leancloud application appid
-  appKey: m4bAAoxs0EgrKutUB7qWtLto              # your leancloud application appkey
+  appId:  vjbVPwGrkwLPibCYNK7SVe6A-MdYXbMMI     # your leancloud application appid
+  appKey: 0MXeP7SG7yS5j4fmwTJra4nd              # your leancloud application appkey
   notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: '填写昵称、邮箱即可留下你的观点与想法，邮件通知新回复。' # comment box placeholder
