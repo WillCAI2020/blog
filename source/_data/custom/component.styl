@@ -723,7 +723,7 @@ img.vimg:hover {
 ul.OwO-items.OwO-items-emoticon.OwO-items-show,
 ul.OwO-items.OwO-items-emoji.OwO-items-show,
 ul.OwO-items.OwO-items-image.OwO-items-show{
-	max-height: 120px !important;
+	max-height: 100px !important;
 }
 /****************************************/
 /*************评论 end*******************/
@@ -1004,6 +1004,18 @@ a.nav.icon-only:hover,
 li.list:hover{
 	background: #d5d0d0 !important;
 	border-radius: 16px;
+}
+
+/*音乐播放器-适配手机*/
+.aplayer-container{
+  + mobile() {
+	display: none;
+	}
+}
+#musicbtn{
+  + tablet-desktop() {
+	display: none;
+	}
 }
 /****************************************/
 /*************右键菜单 end***************/
