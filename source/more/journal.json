@@ -1,0 +1,73 @@
+[	{
+		"time": "2021.3.24-25",
+		"content": "<ul><li>Valine.js报错，无好想法解决，不得已弃用😔，转用Twikoo评论</li><li>自定义表情（笨方法真累）</li><li>适配Twikoo样式（移动及电脑端）</li><li>采用简易JS实现移动端通过悬浮组件按钮控制音乐播放器的显示与否</li><li>于更多页面实现博客成长记录</li></ul>"
+	},
+	{
+		"time": "2020.3.21-23",
+		"content": "<ul><li>自定义相关文章功能😊</li><li>添加说说界面</li><li>添加提示（问候）</li><li>修改文章permalink（最好不要改，不过反正此时我文章数不多，也没啥人看🙃）</li><li>更新文章目录布局：新增二级目录→更多</li></ul>"
+	},	
+	{
+		"time": "2020.3.5-7",
+		"content": "<ul><li>添加心知天气组件</li><li>工具中添加多个静态页面</li><li>增加提示框组件（终于实现这个功能了😁）</li></ul>"
+	},	
+	{
+		"time": "2020.3.2",
+		"content": "<ul><li>实现自动提交百度、必应、<del>谷歌搜录（API连不上）</del></li><li>使用百度统计，取消谷歌分析</li></ul>"
+	},	
+	{
+		"time": "2020.2.27-28",
+		"content": "<ul><li>完善鼠标右键菜单（音乐功能）</li><li>将Gitter置入悬浮组件中</li><li>看板娘移至博客右侧并适配样式</li><li>删除悬浮组件音乐功能、使用aplayer+metingjs添加网易云歌单</li><li>修改aplayer.js实现切换页面续播功能（代码小白捣鼓半天😅）</li></ul>"
+	},	
+	{
+		"time": "2020.2.26",
+		"content": "<ul><li>自定义右键菜单（不完全）</li><li>提交百度收录、必应搜录</li><li><del>尝试 Aligo搜索（不好用😛）</del></li><li>相册界面添加音乐——Aplayer</li></ul>"
+	},
+	{
+		"time": "2020.2.23-25",
+		"content": "<ul><li>分割线美化（所需font-awesome与edit-link冲突）、更改edit-link图标</li><li>增加预加载动画：之前深色模式下切换页面会有闪白，加上这个后<br>闪白被动画掩盖，大大提升体验感😅</li><li>使用修改版Valine、调整评论样式、自定义表情仓库（笨方法真累😶）</li><li>发现pjax问题，其作用为无刷新切换页面，达到快速加载目的，但有些JS<br>（彩色标签、fireworks）将会出错。<br>我不会使用回调函数等解决方法，于是禁用😑</li><li>添加自定义页面：工具页面、相册页面<br><strong>着重强调Hexo的跳过渲染：这样我们可以自由使用别人开源的静态网页</strong></li><li>绑定个人域名：crcrc.cn</li><li>为工具页面增加自定义页面：打碟，坦克大作战，魔方，元素周期表</li><li>添加留言墙</li></ul>"
+	},
+	{
+		"time": "2020.2.20-21",
+		"content": "<ul><li>关闭动态背景（没必要）、取消自定义字体（加载太慢）</li><li>调整样式：引用、tips、waifu、评论、移动端...</li><li>启用Google Analytics启动pangu（主题自带中英文分隔插件）</li><li><del>尝试bookmark（没发现有啥用）</del></li><li>添加悬浮组件部分：跳转底部评论区</li></ul>"
+	},
+	{
+		"time": "2020.2.18",
+		"content": "<ul><li>添加悬浮组件：深色模式、返回顶部、背景音乐</li><li>重构样式管理方法、去除多余代码</li></ul>"
+	},	
+	{
+		"time": "2020.2.17",
+		"content": "增加：类知乎卡片、两种风格tips"
+	},	
+	{
+		"time": "2020.2.15-16",
+		"content": "<ul><li>关闭首页阅读数显示、自定义动态背景ribbon_flow</li><li>确定英文字体Acme</li><li>增加在线聊天：Gitter、自定义友链页面、自定义LazyLoad（可选择是否使用）</li><li>自定义评论系统表情包、适配评论、友链样式</li></ul>"
+	},	
+	{
+		"time": "2020.2.14",
+		"content": "<ul><li>自定义鼠标样式（主要配<a href=\" https://github.com/WillCAI2020/blog/tree/main/source/_data/custom \">CSS</a>😐）</li><li>CDN加速字体（//fonts.loli.net，现使用//fonts.geekzu.org🤭）</li><li>开始使用CDN加速——JsDelivr</li><li>粒子时钟、Valine评论系统、Waline评论系统</li></ul>"
+	},	
+	{
+		"time": "2020.2.13",
+		"content": "<ul><li>更加关心博客加载速度问题🙃</li><li>添加gulp相关的插件：gulp、gulp-minify-css、gulp-htmlclean...<br>学习并配置gulpfile.js</li><li>实现PWA：sw.js、manifest.json</li><li>更换背景图片（现用）、调整样式（滚动条、透明度）</li><li><del>尝试分享功能：Addthis</del></li><li><del>【quicklink、Pjax（与PWA冲突）、lazyload】 ➡️ 现已关闭）</del></li></ul>"
+	},	
+	{
+		"time": "2020.2.11-12",
+		"content": "<ul><li>尝试并利用 darkmode.js 实现深色主题切换</li><li>适配各种样式：深色模式、搜索框、看板娘...</li><li>探索插入图片的方法（开启配置中的post_asset_folder即可使用相对路径插入）<br>如今写文章还是利用<a href=\" https://picgo.github.io/PicGo-Doc/zh/ \">PicGo</a>+Gitee图床香😂</li><li>使用gifplayer实现gif暂停与播放</li></ul>"
+	},	
+	{
+		"time": "2020.2.10",
+		"content": "<ul><li>增加：黑夜模式切换-不完整、live2d看板娘、点击特效-浮出文字、<br>文章置顶功能、自定义内置折叠样式</li><li>发现post-edit与看板娘冲突问题（font-awesome版本的问题）</li><li>添加并配置文章加密插件：hexo-blog-encrypt（注意配置加密主题更好看）</li><li>开始提交搜录，实现并优化SEO（添加title、keywords、desc关键字）</li></ul>"
+	},	
+	{
+		"time": "2020.2.9",
+		"content": "<ul><li>调整：圆角、文章阴影、标签样式、post样式、标题样式、页脚布局</li><li>页码框样式、文章超链接样式、顶部阅览进度条</li><li>解决：打字特效 activate-power-mode.min.js 被转义问题</li><li>发现问题：标签颜色→解决：标签 js 被解析</li><li>使用ArchLinux实现的Github Actions出现问题，最终切换方式并整理发布文章</li><li>开始使用 bash 处理 git 命令，大大提高效率</li><li>开始适配手机</li><li>切换自定义樱花动态背景</li><li><del>back2top图片、引入本地字体、页面加载动画（还是朴素点好）、右上角Github</del></li></ul>"
+	},	
+	{
+		"time": "2021.2.8",
+		"content": "<ul><li>配置二级菜单栏、配置网站图标、页脚信息、reward、文章底部标签、代码块风格...</li><li>配置背景图片-透明度&圆角（开始尝试优化图片）</li><li>增加：页脚-每日诗词</li><li>设置点击及打字特效</li><li>文章编辑功能（主题自带）</li><li>彩色标签页</li><li>重构样式管理方式</li><li>添加并配置字数统计插件：hexo-symbols-count-time（尝试过了 hexo-word-counter）</li><li>添加并配置站内搜索插件：hexo-generator-searchdb</li></ul>"
+	},	
+	{
+		"time": "2021.2.7",
+		"content": "<ul><li>初始化（重启）Hexo-Next博客</li><li>实现Github Actions部署</li><li>为Github增加IMGBOT，优化仓库图片</li><li>初步配置好配置文件，并初步建立Style管理方式</li><li>尝试并实现：<ul><li>保证footer元素置底</li><li>文字背景块</li><li>canvas_ribbon动态背景丝带（主题自带）</li><li>自定义动态背景canvas_nest</li><li>增加二级菜单栏</li></ul></li></ul>"
+	}
+]
