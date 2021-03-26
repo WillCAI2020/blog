@@ -568,7 +568,7 @@ blockquote p{
 
 /* comment-输入框背景图片 */
 .veditor,
-.tk-input{
+.el-textarea__inner{
   background-image: url(https://cdn.jsdelivr.net/gh/WillCAI2020/cdn/images/comment2.webp) !important;
   background-size: 200px !important;
   background-repeat: no-repeat !important;
@@ -576,7 +576,8 @@ blockquote p{
   background-color: rgba(255, 255, 255, 0) !important;
   resize: vertical;
 }
-.veditor:focus {
+.veditor:focus,
+.el-textarea__inner:focus{
   background-position-y: 200px !important;
   transition: all 0.2s ease-in-out 0s !important;
 }
@@ -663,7 +664,9 @@ blockquote p{
     color: #929298 !important;
 }
 
-.vcontent img {
+.vcontent img,
+.vemoji,
+.tk-owo-emotion{
   max-width: 25px !important;
   display: inline !important;
 }
