@@ -325,7 +325,8 @@ blockquote p{
 }
 
 /* 评论区 */
-.DarkMode .comments {
+.DarkMode .comments,
+.DarkMode .tabs-comment {
   background: #282c34;
 }
 
@@ -555,15 +556,22 @@ blockquote p{
 /*************评论 begin*****************/
 /****************************************/
 /* comment-圆角 */
-.comments {
+.comments,
+.tabs-comment {
+  background: var(--content-bg-color);
   border-radius: $myradius !important;
   overflow: visible !important;
 }
 @media screen and (min-width: 1200px) {
-  .comments {
+  .comments,
+  .tabs-comment  {
     margin: 0px 24px 0px 24px;
   }
 }
+.comments{
+	margin-top: 0px;
+}
+
 
 /* 去除power by */
 .vpower.txt-right,
@@ -670,6 +678,7 @@ blockquote p{
 }
 
 .vcontent img,
+.vpreview img,
 .vemoji,
 .tk-owo-emotion{
   max-width: 25px !important;
@@ -729,6 +738,30 @@ ul.OwO-items.OwO-items-emoticon.OwO-items-show,
 ul.OwO-items.OwO-items-emoji.OwO-items-show,
 ul.OwO-items.OwO-items-image.OwO-items-show{
 	max-height: 100px !important;
+}
+
+/*针对多评论*/
+#waline-comment_count{
+	display: none;
+}
+.comment-button-group .comment-button{
+  &:hover {
+    color: white !important;
+	background: #fc6423 !important;
+  }
+  border-radius: 6px;
+}
+.DarkMode .comment-button-group .comment-button{
+	background: black;
+	color: white;
+  &:hover {
+    border-color: white;
+	background: #fc6423 !important;
+  }
+}
+.DarkMode .comment-button-group .comment-button.active{
+	background: white;
+	color: black;
 }
 /****************************************/
 /*************评论 end*******************/

@@ -154,19 +154,28 @@ valine:
   metaPlaceholder: {"nick":"昵称/QQ号（必填）","mail":"邮箱（必填，完全保密）"}
   requiredFields: [nick, mail] # Set required fields: [nick] | [nick, mail]
 
+# Twikoo
+# For more information: https://twikoo.js.org, https://github.com/imaegoo/twikoo
+twikoo:
+  enable: true
+  visitor: true
+  envId: blog-9gjzfpqk23adf58c # 环境 ID，搭建教程：https://twikoo.js.org/quick-start.html
+  # region: ap-guangzhou # 环境地域，默认为 ap-shanghai
+  # path: 'window.location.pathname' # 自定义文章路径
+
 # Waline
 # For more information: https://waline.js.org, https://github.com/lizheming/waline
 waline:
-  enable: false
-  serverURL: https://waline-wheat.vercel.app/ # Waline server address url
+  enable: true
+  serverURL: https://ruchan.vercel.app/ # Waline server address url
   avatar: wavatar # Gravatar style
   avatarCDN: https://sdn.geekzu.org/avatar/
   meta: [nick, mail, link] # Custom comment header
   requiredFields: [nick, mail] # Set required fields: [nick] | [nick, mail]
   pageSize: 10 # Pagination size
   # Warning: Do not enable both `waline.visitor` and `leancloud_visitors`.
-  visitor: true # Article reading statistic
-  comment_count: true  # If false, comment count will only be displayed in post page, not in home page
+  visitor: false # Article reading statistic
+  comment_count: false  # If false, comment count will only be displayed in post page, not in home page
   lang: zh-CN # Language, available values: en, zh-CN
   placeholder: 填写昵称、邮箱即可留下你的观点与想法，邮件通知新回复。 # Comment box placeholder
   langMode: 
@@ -240,7 +249,6 @@ waline:
     ok: "weibo/h_ok.png"
     抱拳: "QQ/抱拳.gif"    
     不出所料: "alu/不出所料.png"
-    不说话: "alu/不说话.png"
     不高兴: "alu/不高兴.png"   
     伸手: "QQ/1.png"    
     bieqi: "QQ/bieqi.jpg"
@@ -263,15 +271,6 @@ waline:
     喝奶茶: "QQ/喝奶茶.png"
     睡觉: "fangzhou/睡觉.jpg"
     洗澡: "fangzhou/洗澡.jpg"
-
-# Twikoo
-# For more information: https://twikoo.js.org, https://github.com/imaegoo/twikoo
-twikoo:
-  enable: true
-  visitor: true
-  envId: blog-9gjzfpqk23adf58c # 环境 ID，搭建教程：https://twikoo.js.org/quick-start.html
-  # region: ap-guangzhou # 环境地域，默认为 ap-shanghai
-  # path: 'window.location.pathname' # 自定义文章路径
 
 algolia:
   applicationID: 'DOJFFJB54A'
@@ -881,7 +880,7 @@ theme_config:
     # Multiple Comment System Support
     comments:
       # Available values: tabs | buttons
-      style: tabs
+      style: buttons
       # Choose a comment system to be displayed by default.
       # Available values: disqus | disqusjs | changyan | livere | gitalk | utterances
       active:
@@ -925,7 +924,7 @@ theme_config:
 
     # LiveRe comments system
     # You can get your uid from https://livere.com/insight/myCode (General web site)
-    livere_uid: # <your_uid>
+    livere_uid: # MTAyMC81MzA3Ni8yOTU1Mg== # <your_uid>
 
     # Gitalk
     # For more information: https://gitalk.github.io
