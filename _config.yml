@@ -136,7 +136,7 @@ sitemap:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: false
+  enable: true
   appId:  vjbVPwGrkwLPibCYNK7SVe6A-MdYXbMMI     # your leancloud application appid
   appKey: 0MXeP7SG7yS5j4fmwTJra4nd              # your leancloud application appkey
   notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
@@ -146,8 +146,8 @@ valine:
   meta: [nick, mail, link] # Custom comment header
   pageSize: 10 # pagination size
   language: zh-cn # language, available values: en, zh-cn
-  visitor: true # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
-  comment_count: true # If false, comment count will only be displayed in post page, not in home page
+  visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
+  comment_count: false # If false, comment count will only be displayed in post page, not in home page
   master: 'd123a33a5446da1642eded365a34d5de'    #博主邮箱md5
   tagMeta: ["博主","小伙伴","访客"]     #标识字段名
   friends:  ["e89de8c6567387e83116dd3e987210af","2fa84c28b22ace21c39da4a553edf661"]                        #小伙伴邮箱Md5
@@ -166,7 +166,7 @@ twikoo:
 # Waline
 # For more information: https://waline.js.org, https://github.com/lizheming/waline
 waline:
-  enable: true
+  enable: false
   serverURL: https://ruchan.vercel.app/ # Waline server address url
   avatar: wavatar # Gravatar style
   avatarCDN: https://sdn.geekzu.org/avatar/

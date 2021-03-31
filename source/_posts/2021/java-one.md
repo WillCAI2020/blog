@@ -313,6 +313,7 @@ short s += 20;
 ### Scanner
 
 ```java
+//可从不同来源读入数据，如控制台、文件、数据库等
 //1、导包→导包的动作必须出现在类定义的上边
 import java.util.Scanner;
 //2、创建对象→只有变量名sc能改变，其它均为固定格式
@@ -320,6 +321,27 @@ Scanner sc = new Scanner(System.in);
 //3、接收数据→只有变量名i能改变，其它均为固定格式
 int i = sc.nextInt();
 ```
+
+### BufferedReader
+
+```java
+import java.io.*;
+throws IOException
+
+//输入一个字符串
+BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+String str = reader.readLine();
+
+//字符串转换
+int n = Integer.parseInt(str);
+
+//其他数据类型类似
+double d = Double.parseDouble(str);
+short s = Short.parseShort(str);
+etc.
+```
+
+
 
 ## 分支语句
 

@@ -65,6 +65,14 @@ Scanner sc = new Scanner(System.in);	//构造方法
 String line = sc.nextLine();		//成员方法
 ```
 
+
+|   成员方法   |          功能          |
+| :----------: | :--------------------: |
+|  nextInt()   |  读入一个整数（int）   |
+| nextDouble() | 读入一个实数（double） |
+|    next()    | 读入一个单词（String） |
+|  nextLine()  |   读入一行（String）   |
+
 {% note success no-icon%}
 调用成员方法时，先写方法，再用ctrl+alt+v，会自动给出返回类型与变量名
 {% endnote %}
@@ -249,7 +257,7 @@ public class StringTest04 {
 | public boolean equals(Object anObject) | 比较字符串的内容，严格区分大小写(用户名和密码) |
 |     public char charAt(int index)      |            返回指定索引处的 char 值            |
 |          public int length()           |               返回此字符串的长度               |
-
+| public String  substring​(int beginIndex, int endIndex) | 返回一个字符串(两个索引值之间的部分)，该字符串是此字符串的子字符串。 |
 ### StringBuilder
 
 #### 概述
