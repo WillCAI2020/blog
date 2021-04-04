@@ -897,11 +897,19 @@ div#rightmenu-wrapper {
   -ms-user-select: none;
   -webkit-user-select: none;
   user-select: none;
-  background: #dcdcdc;
-  border-radius: 12px;
 }
 ul#rightmenu-content{
 	margin: 0px;
+}
+ul.list-v{
+  z-index: 1;
+  display: none;
+  position: absolute;
+  background: #dcdcdc;
+  margin-top: -6px;
+  border-radius: 6px;
+  padding: 8px 0;
+  white-space: nowrap;
 }
 ul.list-v.rightmenu {
   display: block;
@@ -1028,9 +1036,6 @@ ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar .aplayer-volume {
 ul.list-v.rightmenu {
 	list-style: none;
 }
-ul#rightmenu-content{
-	padding: 5px 0px;
-}
 ul.list-v hr{
 	margin-top: 8px;
 	margin-bottom: 8px;
@@ -1040,6 +1045,7 @@ ul.list-v hr{
 	border-bottom: 1px solid rgba(68,68,68,0.1);	
 }
 a.nav.icon-only:hover,
+li.option a:hover,
 li.list:hover{
 	background: #d5d0d0 !important;
 	border-radius: 16px;
